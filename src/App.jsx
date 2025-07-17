@@ -7,6 +7,8 @@ import { init_wow } from "@/utlis/initWowjs";
 import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";
 import { Route, Routes, useLocation } from "react-router-dom";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
+import Home1MainDemoOnepage from "./pages/homes/home-1/main-demo/main-one-page/page";
+import MainPageNotFound from "./pages/otherPages/main-pages-404/page";
 
 function App() {
   const { pathname } = useLocation();
