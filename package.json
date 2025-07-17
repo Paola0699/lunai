@@ -3,12 +3,12 @@
   "private": true,
   "version": "1.2.0",
   "type": "module",
-  "scripts": {
+ "scripts": {
   "dev": "vite",
   "build": "vite build",
   "start": "node server.js",
   "heroku-postbuild": "vite build"
-  },
+},
   "dependencies": {
     "@popperjs/core": "2.11.8",
     "bootstrap": "^5.1.3",
