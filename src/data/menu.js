@@ -233,7 +233,8 @@ export const mainDemoOnepage = [
   { href: "#team", text: "Team" },
   { href: "#program", text: "Program" },
   { href: "#services", text: "Services" },
-  { href: "#alliances", text: "Alliances" },
+  { href: "#facility", text: "Facility" },
+  { href: "#qa", text: "Q&A" },
 ];
 
 export const menuItems = [
