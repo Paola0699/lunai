@@ -328,7 +328,7 @@ export default function Home10({ onePage = false, dark = false }) {
           <div className="row">
             <div className="col-lg-5 mb-md-60 mb-sm-40">
               <img
-                src="/assets/images/user-photo.png"
+                src="/assets/images/facilities-photo.png"
                 alt="Image Description"
               />
             </div>
@@ -344,29 +344,17 @@ export default function Home10({ onePage = false, dark = false }) {
               }}
             >
               <h3 className="section-title mb-30" style={{ color: "#2f3a59" }}>
-                Alliances
+                Facility
               </h3>
               <p className="mb-50 mb-sm-40" style={{ color: "#2f3a59" }}>
-                We maintain close collaborations with therapists, physicians,
-                researchers, and clinics worldwide. Our goal is to uphold the
-                highest standard of safety and integration while staying
-                connected to the broader clinical and scientific community.
+                Our retreat is nestled in a peaceful natural setting,
+                thoughtfully designed to provide safety, comfort, and privacy.
+                We offer cozy spaces for individual and group sessions, lush
+                outdoor areas for personal reflection, and comfortable
+                accommodations that invite rest and introspection. Every corner
+                is crafted to support your journey of healing and emotional
+                growth.
               </p>
-              <div className="local-scroll">
-                <>
-                  {" "}
-                  <a
-                    href="#contact"
-                    className="btn btn-mod btn-color btn-large btn-circle btn-hover-anim mb-xs-10"
-                    style={{ backgroundColor: "#dcebeb", color: "#2f3a59" }}
-                  >
-                    <span>
-                      If you're a practitioner or organization aligned with our
-                      work, reach out to explore a partnership.
-                    </span>
-                  </a>
-                </>
-              </div>
             </div>
             {/* End Left Column */}
             {/* Right Column */}
