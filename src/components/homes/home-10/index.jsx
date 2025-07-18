@@ -3,6 +3,7 @@ import Newsletter from "./Newsletter";
 import Steps from "../home-4/Steps";
 import { Link } from "react-router-dom";
 import Slider1 from "@/components/elements/Slider1";
+import Faqs from "../home-1/Faq";
 
 export default function Home10({ onePage = false, dark = false }) {
   return (
@@ -323,6 +324,23 @@ export default function Home10({ onePage = false, dark = false }) {
       <section className="page-section">
         <Slider1 />
       </section>
+
+      <section className="page-section">
+        <div className="container position-relative">
+          <div className="row position-relative">
+            <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+              <h3 className="section-title text-center mb-80 mb-sm-60">
+                Frequently Asked Questions
+              </h3>
+
+              {/* <!-- Accordion --> */}
+              <Faqs />
+              {/* <!-- End Accordion --> */}
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="pt-30">
         <div id="paddingRightContainer" className="container" />
       </section>
