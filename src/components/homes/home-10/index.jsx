@@ -2,6 +2,7 @@ import Team from "./Team";
 import Newsletter from "./Newsletter";
 import Steps from "../home-4/Steps";
 import { Link } from "react-router-dom";
+import Slider1 from "@/components/elements/Slider1";
 
 export default function Home10({ onePage = false, dark = false }) {
   return (
@@ -318,50 +319,9 @@ export default function Home10({ onePage = false, dark = false }) {
       >
         <Newsletter />
       </section>
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
-        id="services"
-      >
-        <div className="container position-relative">
-          <div className="row">
-            <div className="col-lg-5 mb-md-60 mb-sm-40">
-              <img
-                src="/assets/images/facilities-photo.png"
-                alt="Image Description"
-              />
-            </div>
-            {/* Left Column */}
-            <div
-              className="col-lg-5 mb-md-60 mb-sm-40"
-              style={{
-                display: "flex",
-                alignContent: "center",
-                justifyContent: "center",
-                flexDirection: "column",
-                marginLeft: "3rem",
-              }}
-            >
-              <h3 className="section-title mb-30" style={{ color: "#2f3a59" }}>
-                Facility
-              </h3>
-              <p className="mb-50 mb-sm-40" style={{ color: "#2f3a59" }}>
-                Our retreat is nestled in a peaceful natural setting,
-                thoughtfully designed to provide safety, comfort, and privacy.
-                We offer cozy spaces for individual and group sessions, lush
-                outdoor areas for personal reflection, and comfortable
-                accommodations that invite rest and introspection. Every corner
-                is crafted to support your journey of healing and emotional
-                growth.
-              </p>
-            </div>
-            {/* End Left Column */}
-            {/* Right Column */}
 
-            {/* End Right Column */}
-          </div>
-        </div>
+      <section className="page-section">
+        <Slider1 />
       </section>
       <section className="pt-30">
         <div id="paddingRightContainer" className="container" />

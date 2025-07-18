@@ -3,14 +3,29 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const imageData = [
   {
-    placeholderSrc: "/assets/images/placeholder.png",
-    dataSrc: "/assets/images/full-width-images/section-bg-8.jpg",
-    alt: "Image Description 1",
+    placeholderSrc: "/assets/images/placeholder-0.png",
+    dataSrc: "/assets/images/placeholder-0.png",
+    alt: "Rooms outside",
   },
   {
-    placeholderSrc: "/assets/images/placeholder.png",
-    dataSrc: "/assets/images/full-width-images/section-bg-9.jpg",
-    alt: "Image Description 2",
+    placeholderSrc: "/assets/images/placeholder-1.png",
+    dataSrc: "/assets/images/placeholder-1.png",
+    alt: "Room inside",
+  },
+  {
+    placeholderSrc: "/assets/images/placeholder-2.png",
+    dataSrc: "/assets/images/placeholder-2.png",
+    alt: "Food",
+  },
+  {
+    placeholderSrc: "/assets/images/placeholder-3.png",
+    dataSrc: "/assets/images/placeholder-3.png",
+    alt: "Common area",
+  },
+  {
+    placeholderSrc: "/assets/images/placeholder-4.png",
+    dataSrc: "/assets/images/placeholder-4.png",
+    alt: "Pool",
   },
   // Add more image data objects as needed
 ];
@@ -21,22 +36,20 @@ export default function Slider1() {
         <div className="col-md-5 col-lg-4 offset-lg-1 mb-sm-40 d-flex align-items-center">
           {/* About Project */}
           <div className="w-100">
-            <h2 className="section-title-small mb-30 mb-md-20">
-              Creative Project 1
+            <h2
+              className="section-title-small mb-30 mb-md-20"
+              style={{ color: "#2f3a59" }}
+            >
+              Facility
             </h2>
             <p className="text-gray mb-40 mb-sm-30">
-              Phasellus facilisis mauris vel velit molestie pellentesque. Donec
-              rutrum, tortor elementum venenatis, purus magna bibendum nisl,
-              accumsan ipsum erat eu ipsum morede sapien.
+              Our retreat is nestled in a peaceful natural setting, thoughtfully
+              designed to provide safety, comfort, and privacy. We offer cozy
+              spaces for individual and group sessions, lush outdoor areas for
+              personal reflection, and comfortable accommodations that invite
+              rest and introspection. Every corner is crafted to support your
+              journey of healing and emotional growth.
             </p>
-            <div>
-              <a
-                href="#"
-                className="btn btn-mod btn-white  btn-round btn-large btn-hover-anim"
-              >
-                <span>View Project 1</span>
-              </a>
-            </div>
           </div>
           {/* End About Project */}
         </div>
