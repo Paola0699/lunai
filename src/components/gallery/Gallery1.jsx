@@ -2,7 +2,7 @@ import { photoItems } from "@/data/gallery";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
 export default function Gallery1({
-  itemsLength = 12,
+  itemsLength = 16,
   parantClass = "col-md-3",
 }) {
   return (

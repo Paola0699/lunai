@@ -4,6 +4,8 @@ import Steps from "../home-4/Steps";
 import { Link } from "react-router-dom";
 import Slider1 from "@/components/elements/Slider1";
 import Faqs from "../home-1/Faq";
+import Gallery1 from "@/components/gallery/Gallery1";
+import About from "../home-7/About";
 
 export default function Home10({ onePage = false, dark = false }) {
   return (
@@ -322,14 +324,21 @@ export default function Home10({ onePage = false, dark = false }) {
       </section>
 
       <section className="page-section">
-        <Slider1 />
+        <About />
+      </section>
+
+      <section className="page-section light-content pt-0">
+        <Gallery1 />
       </section>
 
       <section className="page-section">
         <div className="container position-relative">
           <div className="row position-relative">
             <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-              <h3 className="section-title text-center mb-80 mb-sm-60">
+              <h3
+                className="section-title text-center mb-80 mb-sm-60"
+                style={{ color: "#2f3a59" }}
+              >
                 Frequently Asked Questions
               </h3>
 
