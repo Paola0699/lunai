@@ -6,6 +6,7 @@ import Slider1 from "@/components/elements/Slider1";
 import Faqs from "../home-1/Faq";
 import Gallery1 from "@/components/gallery/Gallery1";
 import About from "../home-7/About";
+import Slider4 from "@/components/elements/Slider4";
 
 export default function Home10({ onePage = false, dark = false }) {
   return (
@@ -91,21 +92,7 @@ export default function Home10({ onePage = false, dark = false }) {
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
 
       <section className="page-section" style={{ backgroundColor: "#2f3a59" }}>
-        <div className="container relative">
-          {/* Row */}
-          <div className="row mb-n40">
-            {/* Col */}
-            <div className="col-12 mb-40">
-              <div className="video">
-                <video loop="" autoPlay controls="controls">
-                  <source src="/assets/videos/video-1.mp4" type="video/mp4" />
-                </video>
-              </div>
-            </div>
-            {/* Col */}
-          </div>
-          {/* End Row */}
-        </div>
+        <Slider4 />
       </section>
 
       <section
@@ -325,10 +312,6 @@ export default function Home10({ onePage = false, dark = false }) {
 
       <section className="page-section">
         <About />
-      </section>
-
-      <section className="page-section light-content pt-0">
-        <Gallery1 />
       </section>
 
       <section className="page-section">

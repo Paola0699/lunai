@@ -24,7 +24,7 @@ export default function Steps() {
                 >
                   Ibogaine Reset
                 </h3>
-                <h6 style={{ textAlign: "center" }}>10 days</h6>
+                <h6 style={{ textAlign: "center" }}>7-10 days</h6>
                 <p
                   className="steps-2-text mb-0"
                   style={{ textAlign: "center" }}
@@ -32,12 +32,6 @@ export default function Steps() {
                   A single, comprehensive program tailored to your specific
                   needs — whether you're dealing with addiction, PTSD,
                   depression, anxiety, TBI, or eating disorders.
-                </p>
-                <p
-                  className="steps-2-text mb-0"
-                  style={{ textAlign: "center" }}
-                >
-                  Investment: <b>10,000 USD</b>
                 </p>
               </div>
             </div>

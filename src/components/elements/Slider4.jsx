@@ -2,8 +2,22 @@ import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const imageData = [
-  "/assets/images/full-width-images/section-bg-6.jpg",
-  "/assets/images/full-width-images/section-bg-5.jpg",
+  "/assets/images/portfolio/full-project-1.png",
+  "/assets/images/portfolio/full-project-2.png",
+  "/assets/images/portfolio/full-project-3.png",
+  "/assets/images/portfolio/full-project-4.png",
+  "/assets/images/portfolio/full-project-5.png",
+  "/assets/images/portfolio/full-project-6.png",
+  "/assets/images/portfolio/full-project-7.png",
+  "/assets/images/portfolio/full-project-8.png",
+  "/assets/images/portfolio/full-project-9.png",
+  "/assets/images/portfolio/full-project-10.png",
+  "/assets/images/portfolio/full-project-11.png",
+  "/assets/images/portfolio/full-project-12.png",
+  "/assets/images/portfolio/full-project-13.png",
+  "/assets/images/portfolio/full-project-14.png",
+  "/assets/images/portfolio/full-project-15.png",
+  "/assets/images/portfolio/full-project-16.png",
 ];
 
 export default function Slider4() {
