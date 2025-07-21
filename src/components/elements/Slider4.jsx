@@ -39,16 +39,6 @@ export default function Slider4() {
             opacity: 1,
             display: "block",
           }}
-          pagination={{
-            el: ".sp1",
-            clickable: true,
-            bulletActiveClass: "active",
-            renderBullet: (index, className) => {
-              return `<div class=" owl-page ${className}">
-                   <span></span>
-                  </div>`;
-            },
-          }}
         >
           {/* Team item */}
           {imageData.map((image, index) => (
