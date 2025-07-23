@@ -24,14 +24,34 @@ export default function Steps() {
                 >
                   Ibogaine Reset
                 </h3>
-                <h6 style={{ textAlign: "center" }}>7-10 days</h6>
+                <h6 style={{ textAlign: "center" }}>9 days</h6>
+
                 <p
                   className="steps-2-text mb-0"
-                  style={{ textAlign: "center" }}
+                  style={{ whiteSpace: "pre-line" }}
                 >
-                  A single, comprehensive program tailored to your specific
-                  needs — whether you're dealing with addiction, PTSD,
-                  depression, anxiety, TBI, or eating disorders.
+                  We offer a single, comprehensive program designed to address
+                  the full spectrum of your healing process—whether you're
+                  navigating addiction, PTSD, depression, anxiety, traumatic
+                  brain injury, or eating disorders. Each retreat is structured
+                  around three carefully spaced flood doses of ibogaine,
+                  administered under medical supervision and supported by a team
+                  deeply experienced in both clinical safety and psychospiritual
+                  care.
+                </p>
+                <p>
+                  This protocol allows for a layered and sustained therapeutic
+                  effect—uncovering root causes, interrupting entrenched
+                  patterns, and opening the door to long-term transformation.
+                  Rather than offering isolated treatments or quick
+                  interventions, we provide a full arc of care: preparation,
+                  intensive in-person work, and three months of integration
+                  support to help stabilize and reinforce the changes you begin
+                  during your time with us.
+                </p>
+                <p>
+                  Our goal is not just to interrupt symptoms, but to create the
+                  conditions for lasting personal and neurological reset.
                 </p>
               </div>
             </div>

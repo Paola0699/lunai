@@ -38,12 +38,13 @@ export default function Faq({ faqData = faqDataMain }) {
               {item.question}
             </a>
           </dt>
-          <dd
+          <p
             ref={(el) => (answerRefs.current[index] = el)}
             className="black faqAnswer"
+            style={{ whiteSpace: "pre-line" }}
           >
             {item.answer}
-          </dd>
+          </p>
         </React.Fragment>
       ))}
     </dl>

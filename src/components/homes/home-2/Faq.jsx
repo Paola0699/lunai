@@ -38,13 +38,13 @@ export default function Faq() {
               <i className="icon-plus" />
             </a>
           </dt>
-          <dd
+          <p
             className="black"
             ref={(el) => (answerRefs.current[index] = el)}
             style={{ display: "block" }}
           >
             {elm.answer}
-          </dd>
+          </p>
         </React.Fragment>
       ))}
     </dl>

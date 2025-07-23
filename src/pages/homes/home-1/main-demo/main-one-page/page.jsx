@@ -28,7 +28,7 @@ export default function Home1MainDemoOnepage() {
               className="home-section parallax-5 parallax-mousemove-scene scrollSpysection"
               style={{
                 backgroundImage:
-                  "url(/assets/images/full-width-images/section-bg-1.png)",
+                  "url(/assets/images/full-width-images/section-bg-3.png)",
               }}
               id="home"
             >

@@ -3,13 +3,23 @@ export const faqs = [
     id: 1,
     question: "What is the cost of treatment?",
     answer:
-      "Our treatments can vary in price depending on several factors. Psychospiritual treatments that are conducted in small groups (3-6 people) are $7850. We offer discounts on this service for military veterans and first responders. Detoxification or other private treatments can vary depending on your particular needs. Stays can range from 7-30 days and sometimes require medical stabilization or adjunct therapies. For the most accurate estimation, please complete an application form or contact us to speak to an intake coordinator.",
+      `The standard cost for our 9-day immersive therapeutic retreat is $10,000. This includes comprehensive preparation and integration support, medical oversight, and a full program of guided treatment sessions designed to promote long-term transformation.
+      
+      We recognize that some highly motivated individuals may not have the financial means to cover the full cost. For this reason, we offer a limited number of need-based financial assistance options to those who demonstrate strong intention and readiness for change.
+      
+      To determine eligibility and receive a personalized cost assessment, we encourage all prospective participants to complete our application form or contact us directly to speak with an intake `,
   },
   {
     id: 2,
     question: "Where are you located?",
     answer:
-      "Our pickup point is in San Diego, CA, and we offer direct transportation from the airport and downtown hotels to our facilities.",
+     `We are located within the grounds of Hacienda Los Picachos, a private estate on the outskirts of San Miguel de Allende, Mexico. Nestled in the high desert landscape of the central highlands, our facility offers a discreet and tranquil environment that is both restorative and conducive to deep personal work.
+
+The hacienda provides a secure and serene setting, surrounded by open skies, native flora, and panoramic views of the surrounding mountains. While just a short drive from the cultural and historical center of San Miguel—a UNESCO World Heritage Site—our location remains intentionally secluded, allowing for a sense of containment and focus during your stay.
+
+Our treatment spaces are thoughtfully designed to balance simplicity and comfort. You’ll find quiet areas for reflection, private accommodations, and access to nature—all contributing to an experience that supports both psychological depth and physical recovery.
+
+This setting plays an important role in the therapeutic process. By removing the distractions of everyday life and placing you in an environment that feels safe, grounded, and separate from your usual context, we create the conditions necessary for meaningful transformation.`,
   },
   {
     id: 3,
@@ -39,7 +49,13 @@ export const faqs = [
     id: 7,
     question: "How can I best prepare?",
     answer:
-      "We provide everyone who comes to our facilities with access to an ibogaine-informed coach who we recommend that you meet with at least 2 times prior to arrival, and continue to meet with after you leave our facility. Your coach will help you get to know you and your reasons for taking ibogaine, and help you with practical and psychological preparations before you arrive.Other recommendations for preparation may come from our medical team, and include recommendations regarding medications, diet, etc.In general, we find that our treatments can help to create strong points of change in people’s lives. Working to solidify those changes as much as possible prior to coming can make these transitions much easier. This may include having a new place to stay when you return home, or it may be simpler changes such as implementing a gym routine or diet changes. Whatever it is, your coach will help you to clarify these goals so you can make the most out of your experience.",
+      `We provide each participant with access to an ibogaine-informed coach, who serves as a key support figure throughout the preparation and integration process. We strongly recommend engaging with your coach at least four times prior to arrival. These sessions help clarify your intentions, build psychological readiness, and lay the groundwork for a more impactful experience.
+
+In addition to one-on-one coaching, you will receive a structured preparatory workbook designed to guide self-inquiry, track progress, and align your internal goals with practical external changes. Your coach will work with you to identify the specific areas of your life you wish to shift—whether that involves securing a new living environment, initiating a fitness routine, adjusting dietary habits, or building healthier relationships.
+
+Further preparation recommendations may come from our medical team, especially in cases involving medication adjustments or specific health considerations. Our clinical and therapeutic staff work in close coordination to ensure each participant arrives in an optimal state—physically, emotionally, and psychologically.
+
+We’ve found that the more groundwork you establish prior to treatment, the more effectively you can anchor the insights and transformation that often follow. To support this continued evolution, we provide three months of post-treatment integration, including weekly sessions, to help solidify the progress made during your stay and carry it forward into daily life.`,
   },
 ];
 

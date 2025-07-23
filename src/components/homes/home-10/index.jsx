@@ -95,6 +95,10 @@ export default function Home10({ onePage = false, dark = false }) {
         <Slider4 />
       </section>
 
+      <section className="page-section">
+        <About />
+      </section>
+
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
@@ -219,7 +223,7 @@ export default function Home10({ onePage = false, dark = false }) {
                     <i className="mi-check" aria-hidden="true" />
                   </div>
                   <div className="features-list-text">
-                    Full clinical screening and labs
+                    Full clinical screening
                   </div>
                 </div>
                 {/* End Features List Item */}
@@ -308,10 +312,6 @@ export default function Home10({ onePage = false, dark = false }) {
         }}
       >
         <Newsletter />
-      </section>
-
-      <section className="page-section">
-        <About />
       </section>
 
       <section className="page-section">
