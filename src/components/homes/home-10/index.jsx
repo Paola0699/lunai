@@ -42,7 +42,7 @@ export default function Home10({ onePage = false, dark = false }) {
                   <img
                     width={500}
                     height={692}
-                    src="/assets/images/demo-strong/section-image-1.jpg"
+                    src="/assets/images/demo-strong/section-image-2.png"
                     alt="Image description"
                     className="wow scaleOutIn"
                     data-wow-duration="1.2s"
@@ -52,7 +52,7 @@ export default function Home10({ onePage = false, dark = false }) {
                   <img
                     width={500}
                     height={692}
-                    src="/assets/images/demo-strong/section-image-2.jpg"
+                    src="/assets/images/demo-strong/section-image-1.png"
                     alt="Image description"
                     className="wow scaleOutIn"
                     data-wow-duration="1.2s"
@@ -79,7 +79,7 @@ export default function Home10({ onePage = false, dark = false }) {
                 <img
                   width={330}
                   height={894}
-                  src="/assets/images/demo-strong/section-image-3.jpg"
+                  src="/assets/images/demo-strong/section-image-3.png"
                   alt="Image description"
                   className="wow scaleOutIn"
                   data-wow-duration="1.2s"

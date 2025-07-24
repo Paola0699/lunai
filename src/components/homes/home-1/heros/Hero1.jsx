@@ -22,7 +22,7 @@ export default function Hero1() {
                 <h1 className="hs-title-1 mb-30" style={{ color: "white" }}>
                   <AnimatedText
                     text={
-                      "Lunai is not a retreat. It's a reset for the better."
+                      "Lunai is not just a retreat. It's a reset for the better."
                     }
                   />
                 </h1>
