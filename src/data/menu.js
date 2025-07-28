@@ -230,10 +230,10 @@ export const boldOnepage = [
 export const mainDemoOnepage = [
   { href: "#home", text: "Home", className: "active" },
   { href: "#about", text: "About" },
+  { href: "#facility", text: "Facility" },
   { href: "#team", text: "Team" },
   { href: "#program", text: "Program" },
   { href: "#services", text: "Services" },
-  { href: "#facility", text: "Facility" },
   { href: "#qa", text: "Q&A" },
 ];
 

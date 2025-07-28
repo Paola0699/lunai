@@ -95,7 +95,7 @@ export default function Home10({ onePage = false, dark = false }) {
         <Slider4 />
       </section>
 
-      <section className="page-section">
+      <section className="page-section" id="facility">
         <About />
       </section>
 
@@ -185,6 +185,7 @@ export default function Home10({ onePage = false, dark = false }) {
       <section
         style={{ backgroundColor: "#2f3a59" }}
         className="page-section bg-scroll light-content"
+        id="program"
       >
         {" "}
         <Steps />
@@ -314,7 +315,7 @@ export default function Home10({ onePage = false, dark = false }) {
         <Newsletter />
       </section>
 
-      <section className="page-section">
+      <section className="page-section" id="qa">
         <div className="container position-relative">
           <div className="row position-relative">
             <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
