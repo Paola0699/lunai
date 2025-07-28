@@ -3,7 +3,7 @@ export const faqs = [
     id: 1,
     question: "What is the cost of treatment?",
     answer:
-      `The standard cost for our 9-day immersive therapeutic retreat is $10,000. This includes comprehensive preparation and integration support, medical oversight, and a full program of guided treatment sessions designed to promote long-term transformation.
+      `The standard cost for our 9-day immersive therapeutic retreat is $9,700. This includes comprehensive preparation and integration support, medical oversight, and a full program of guided treatment sessions designed to promote long-term transformation.
       
       We recognize that some highly motivated individuals may not have the financial means to cover the full cost. For this reason, we offer a limited number of need-based financial assistance options to those who demonstrate strong intention and readiness for change.
       
