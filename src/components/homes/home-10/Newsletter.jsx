@@ -1,4 +1,35 @@
+import { useState } from "react";
+const scriptUrl = import.meta.env.VITE_GOOGLE_SCRIPT_URL;
+
 export default function Newsletter() {
+  const [email, setEmail] = useState("");
+  const [resultMessage, setResultMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setResultMessage("");
+
+    try {
+      const formData = new URLSearchParams();
+      formData.append("email", email);
+
+      const response = await fetch(scriptUrl, {
+        method: "POST",
+        body: formData,
+      });
+
+      const text = await response.text();
+      setResultMessage(text);
+      setEmail("");
+    } catch (error) {
+      setResultMessage("Something went wrong. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="container position-relative">
       <div className="row">
@@ -8,7 +39,7 @@ export default function Newsletter() {
             long-term vision.
           </h3>
           <form
-            onSubmit={(e) => e.preventDefault()}
+            onSubmit={handleSubmit}
             id="mailchimp"
             className="form newsletter-strong"
           >
@@ -25,13 +56,16 @@ export default function Newsletter() {
                 pattern=".{5,100}"
                 required
                 aria-required="true"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <button
                 type="submit"
                 aria-controls="subscribe-result"
                 className="newsletter-button btn btn-mod btn-w btn-large btn-round btn-hover-anim"
+                disabled={loading}
               >
-                <span>Subscribe Now</span>
+                <span>{loading ? "Sending..." : "Subscribe Now"}</span>
               </button>
             </div>
             <div className="form-tip">
@@ -44,7 +78,20 @@ export default function Newsletter() {
               role="region"
               aria-live="polite"
               aria-atomic="true"
-            />
+              className="mt-2"
+            >
+              {resultMessage && (
+                <div
+                  className={
+                    resultMessage.toLowerCase().includes("error")
+                      ? "text-danger"
+                      : "text-success"
+                  }
+                >
+                  {resultMessage}
+                </div>
+              )}
+            </div>
           </form>
         </div>
       </div>
