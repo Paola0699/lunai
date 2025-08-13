@@ -1,6 +1,56 @@
 import React from "react";
+import { loadStripe } from "@stripe/stripe-js"; // Importa loadStripe
+
+// Carga tu clave publicable de Stripe
+// Asegúrate de que VITE_STRIPE_PUBLISHABLE_KEY esté en tu archivo .env en la raíz de tu proyecto React
+const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY);
 
 export default function Steps() {
+  const handleBuyProgram = async () => {
+    try {
+      // 1. Llama a tu backend para crear la sesión de Checkout
+      // Asegúrate de que esta URL apunte al puerto de tu server.js (ej. 3001)
+      const response = await fetch(
+        "http://localhost:3001/create-checkout-session",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          // Puedes enviar datos adicionales si tu backend los necesita para calcular el precio
+          body: JSON.stringify({
+            program: "Ibogaine Reset",
+            amount: 2000 /* ejemplo: 20 USD */,
+          }),
+        }
+      );
+
+      const session = await response.json();
+
+      if (response.ok) {
+        // 2. Redirige al usuario a la página de Checkout de Stripe
+        const stripe = await stripePromise;
+        const { error } = await stripe.redirectToCheckout({
+          sessionId: session.id,
+        });
+
+        if (error) {
+          console.error("Error al redirigir al Checkout:", error);
+          // Aquí puedes mostrar un mensaje de error al usuario
+          alert(`Error: ${error.message}`);
+        }
+      } else {
+        console.error("Error del backend:", session.error);
+        alert(`Error en el servidor: ${session.error}`);
+      }
+    } catch (error) {
+      console.error("Error de red o desconocido:", error);
+      alert(
+        "Hubo un problema al iniciar el proceso de pago. Inténtalo de nuevo."
+      );
+    }
+  };
+
   return (
     <div className="container position-relative">
       <div className="row">
@@ -53,6 +103,15 @@ export default function Steps() {
                   Our goal is not just to interrupt symptoms, but to create the
                   conditions for lasting personal and neurological reset.
                 </p>
+                <button
+                  aria-controls="subscribe-result"
+                  className="btn btn-mod btn-medium btn-circle text-nowrap"
+                  data-btn-animate="y"
+                  style={{ width: "100%", backgroundColor: "rgb(47, 58, 89)" }}
+                  onClick={handleBuyProgram}
+                >
+                  Buy Program
+                </button>
               </div>
             </div>
             {/* End Steps Item */}

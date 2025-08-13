@@ -9,6 +9,8 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
 import Home1MainDemoOnepage from "./pages/homes/home-1/main-demo/main-one-page/page";
 import MainPageNotFound from "./pages/otherPages/main-pages-404/page";
+import SuccessPage from "./components/messages/SuccessPage";
+import CancelPage from "./components/messages/CancelPage";
 
 function App() {
   const { pathname } = useLocation();
@@ -40,6 +42,9 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home1MainDemoOnepage />} />
+        <Route path="/success" element={<SuccessPage />} />
+        <Route path="/cancel" element={<CancelPage />} />
+
         <Route path="*" element={<MainPageNotFound />} />
       </Routes>
       <ScrollTopBehaviour />
