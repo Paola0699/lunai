@@ -7,6 +7,8 @@ import Faqs from "../home-1/Faq";
 import Gallery1 from "@/components/gallery/Gallery1";
 import About from "../home-7/About";
 import Slider4 from "@/components/elements/Slider4";
+import Pricing from "../home-1/Pricing";
+import AnimatedText from "@/components/common/AnimatedText";
 
 export default function Home10({ onePage = false, dark = false }) {
   return (
@@ -189,6 +191,36 @@ export default function Home10({ onePage = false, dark = false }) {
       >
         {" "}
         <Steps />
+      </section>
+      <section
+        className={`page-section  scrollSpysection  ${
+          dark ? "bg-dark-1 light-content" : ""
+        }`}
+        id="pricing"
+      >
+        {" "}
+        <div className="text-center">
+          <div className="row">
+            {/* Page Title */}
+            <div className="col-md-8 offset-md-2">
+              <h2
+                className="section-caption-border mb-30 mb-xs-20 wow fadeInUp"
+                data-wow-duration="1.2s"
+                style={{ color: "#2f3a59" }}
+              >
+                OUR PRICING
+              </h2>
+              <h1 className="hs-title-1 mb-0" style={{ color: "#2f3a59" }}>
+                <span className="wow charsAnimIn" data-splitting="chars">
+                  <AnimatedText text="Retreat Options" />
+                </span>
+              </h1>
+            </div>
+            {/* End Page Title */}
+          </div>
+        </div>
+        <br />
+        <Pricing />
       </section>
       <section
         className={`page-section  scrollSpysection  ${

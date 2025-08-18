@@ -6,46 +6,9 @@ export default function Pricing() {
   const [isYearly, setIsYearly] = useState(false);
   return (
     <>
-      {/* Nav Tabs */}
-      <div className="mb-60 mb-sm-40 text-center">
-        <ul className="nav nav-tabs tpl-minimal-tabs animate" role="tablist">
-          <li
-            onClick={() => setIsYearly(true)}
-            className="nav-item"
-            role="presentation"
-          >
-            <a className={`nav-link ${isYearly ? "active" : ""} `}>Annual</a>
-          </li>
-          <li
-            onClick={() => setIsYearly(false)}
-            className="nav-item"
-            role="presentation"
-          >
-            <a className={`nav-link ${!isYearly ? "active" : ""} `}>Monthly</a>
-          </li>
-        </ul>
-        <div className="small text-gray mt-10">
-          Save up to <strong>15%</strong> with Annual Plan.
-        </div>
-      </div>
-      {/* End Nav Tabs */}
       {/* Tab panes */}
       <div className="tab-content tpl-minimal-tabs-cont position-relative">
         {/* Decorative Waves */}
-        <div
-          className="decoration-10 d-none d-sm-block z-index-n1"
-          data-rellax-y=""
-          data-rellax-speed="-0.7"
-          data-rellax-percentage="0.37"
-        >
-          <img
-            src="/assets/images/decoration-3.svg"
-            className="svg-shape"
-            width={148}
-            height={148}
-            alt=""
-          />
-        </div>
         {/* End Decorative Waves */}
         <div className="tab-pane show active" id="tab-annual" role="tabpanel">
           <div className="row mt-n30">
@@ -53,7 +16,7 @@ export default function Pricing() {
             {pricing2.map((elm, i) => (
               <div
                 key={i}
-                className="col-md-6 col-lg-4 mt-30 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 mt-30 d-flex align-items-stretch"
               >
                 <div className="pricing-item">
                   <div className="pricing-item-inner round">
@@ -66,20 +29,24 @@ export default function Pricing() {
                           height={elm.height}
                           viewBox={`0 0 ${elm.width} ${elm.height}`}
                           aria-hidden="true"
+                          style={{ color: "#2f3a59" }}
                         >
                           <path d={elm.svgPath} />
                         </svg>
                       </div>
-                      <h4 className="pricing-title">{elm.title}</h4>
-                      <div className="pricing-num">
+                      <h4
+                        className="pricing-title"
+                        style={{ color: "#2f3a59" }}
+                      >
+                        {elm.title}
+                      </h4>
+                      <div className="pricing-num" style={{ color: "#2f3a59" }}>
                         <sup>$</sup>
                         {isYearly
                           ? Math.round((elm.price * 12 * 75) / 100)
                           : elm.price}
                       </div>
-                      <div className="pr-per">
-                        {isYearly ? "per year" : "per month"}
-                      </div>
+                      <div className="pr-per">{elm.per}</div>
                       <div className="pricing-features">
                         <ul className="pr-list">
                           {elm.features?.map((elm, i) => (
@@ -98,6 +65,10 @@ export default function Pricing() {
                         <a
                           href="#"
                           className="btn btn-mod btn-medium btn-white btn-round btn-hover-anim btn-full"
+                          style={{
+                            backgroundColor: "#2f3a59",
+                            borderRadius: "2rem",
+                          }}
                         >
                           <span>Buy {elm.title}</span>
                         </a>
