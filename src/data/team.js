@@ -76,31 +76,25 @@ export const teamMembers2 = [
 
 export const teamMembers3 = [
   {
-    name: "Thomas Anderson",
-    role: "Creative director",
+    name: "Laura Carbajal ",
+    role: "Psychologist",
     description:
-      "Sed eget ipsum vel urna viverra iaculis. Aenean ligula arcu, porta in scelerisque vehicula eget metus.",
-    imgSrc: "/assets/images/demo-strong/team/team-1.jpg",
+      "",
+    imgSrc: "/assets/images/demo-strong/team/team-1.png",
   },
   {
-    name: "Lukas Goodman",
-    role: "Product designer",
+    name: "Brad",
+    role: "Ibogaine facilitator",
     description:
-      "Etiam nec purus lacus curabitur facilisis dolor odio, in cursus sem viverra nec maximus pretium.",
-    imgSrc: "/assets/images/demo-strong/team/team-2.jpg",
+      "",
+    imgSrc: "/assets/images/demo-strong/team/team-2.png",
   },
   {
-    name: "Kelsie Rogers",
-    role: "Web engineer",
+    name: "Caroline",
+    role: " Ibogaine facilitator",
     description:
-      "Etiam at orli at tellus iaculis bibendum quis id ante proin posuere eros, eget blandit vestibulum vel.",
-    imgSrc: "/assets/images/demo-strong/team/team-3.jpg",
+      "",
+    imgSrc: "/assets/images/demo-strong/team/team-3.png",
   },
-  {
-    name: "Marta Carlson",
-    role: "UI/UX designer",
-    description:
-      "Sed eget ipsum vel urna viverra iaculis. Aenean ligula arcu, porta in scelerisque vehicula eget metus.",
-    imgSrc: "/assets/images/demo-strong/team/team-4.jpg",
-  },
+
 ];

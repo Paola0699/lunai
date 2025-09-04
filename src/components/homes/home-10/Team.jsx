@@ -56,7 +56,7 @@ export default function Team() {
             </div>
             <h5 className="team-1-role">{member.role}</h5>
             <p className="team-1-descr">{member.description}</p>
-            <div className="team-1-social-links">
+            {/*    <div className="team-1-social-links">
               <a href="#" target="_blank" rel="noopener nofollow">
                 <div className="visually-hidden">Facebook</div>
                 <i className="fa-facebook-f" />
@@ -69,7 +69,7 @@ export default function Team() {
                 <div className="visually-hidden">Behance</div>
                 <i className="fa-behance" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       ))}
