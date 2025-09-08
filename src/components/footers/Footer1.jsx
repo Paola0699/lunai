@@ -39,53 +39,17 @@ export default function Footer1({ dark = false }) {
                 alt="Your Company Logo"
               />
             </Link>
-            <p>
+            {/*  <p>
               Integer auctor aliquet martor, sed lorem malesuada eros blandit
               eget. Proin lacinia mortoc id odio vestibulum.
-            </p>
-            <div className="clearlinks">
+            </p> */}
+            {/* <div className="clearlinks">
               <strong>T.</strong>
               <a href="tel:+18376528800">+1 837 652 8800</a>
             </div>
             <div className="clearlinks">
               <a href="mailto:elitethemes24@gmail.com">lunaireset@gmail.com</a>
-            </div>
-          </div>
-          <div className="col-md-7 offset-md-1 offset-lg-2">
-            <div className="row mt-n30">
-              {/* Footer Widget */}
-              <div className="col-sm-4 mt-30">
-                <h3 className="fw-title">Company</h3>
-                <ul className="fw-menu clearlist local-scroll">
-                  {navigationLinks.map((elm, i) => (
-                    <li key={i}>
-                      <a href={elm.href}>{elm.text}</a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              {/* End Footer Widget */}
-              {/* Footer Widget */}
-              <div className="col-sm-4 mt-30">
-                <h3 className="fw-title">Social Media</h3>
-                <ul className="fw-menu clearlist">
-                  <FooterSocials />
-                </ul>
-              </div>
-              {/* End Footer Widget */}
-              {/* Footer Widget */}
-              <div className="col-sm-4 mt-30">
-                <h3 className="fw-title">Legal &amp; Press</h3>
-                <ul className="fw-menu clearlist">
-                  {footerLinks.map((elm, i) => (
-                    <li key={i}>
-                      <a href={elm.path}>{elm.name}</a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              {/* End Footer Widget */}
-            </div>
+            </div> */}
           </div>
         </div>
         {/* Footer Text */}

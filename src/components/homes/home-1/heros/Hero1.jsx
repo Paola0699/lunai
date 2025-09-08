@@ -26,7 +26,7 @@ export default function Hero1() {
                     }
                   />
                 </h1>
-                <div
+                {/*  <div
                   className="local-scroll mt-n10 wow fadeInUp wch-unset"
                   data-wow-delay="0.7s"
                   data-wow-duration="1.2s"
@@ -39,7 +39,7 @@ export default function Hero1() {
                   >
                     <span>More information</span>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
             {/* End Home Section Text */}

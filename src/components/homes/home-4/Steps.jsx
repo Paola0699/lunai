@@ -103,7 +103,7 @@ export default function Steps() {
                   Our goal is not just to interrupt symptoms, but to create the
                   conditions for lasting personal and neurological reset.
                 </p>
-                <button
+                {/*  <button
                   aria-controls="subscribe-result"
                   className="btn btn-mod btn-medium btn-circle text-nowrap"
                   data-btn-animate="y"
@@ -111,7 +111,7 @@ export default function Steps() {
                   onClick={handleBuyProgram}
                 >
                   Buy Program
-                </button>
+                </button> */}
               </div>
             </div>
             {/* End Steps Item */}

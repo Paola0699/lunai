@@ -61,7 +61,7 @@ export default function Pricing() {
                           ))}
                         </ul>
                       </div>
-                      <div className="mt-auto local-scroll">
+                      {/*    <div className="mt-auto local-scroll">
                         <a
                           href="#"
                           className="btn btn-mod btn-medium btn-white btn-round btn-hover-anim btn-full"
@@ -72,7 +72,7 @@ export default function Pricing() {
                         >
                           <span>Buy {elm.title}</span>
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
