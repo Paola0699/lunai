@@ -16,16 +16,14 @@ const SignalLogo = () => (
 
 const SignalButton = ({ phoneNumber }) => {
   const handleClick = () => {
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    // Asegúrate de que el número de teléfono incluya el prefijo '+' y el código de país
+    // Ejemplo: si phoneNumber es "521234567890", asegúrate de que sea "+521234567890"
+    const formattedPhoneNumber = phoneNumber.startsWith("+")
+      ? phoneNumber
+      : `+${phoneNumber}`;
 
-    if (isMobile) {
-      // En móviles, intenta abrir la app de Signal con un mensaje
-      const message = encodeURIComponent("Hola desde mi app");
-      window.location.href = `sgnl://send?text=${message}`;
-    } else {
-      // En escritorio, abre Signal Web directo al número
-      window.open(`https://signal.me/#p=${phoneNumber}`, "_blank");
-    }
+    // Utiliza siempre signal.me para abrir el chat con el número, funciona en móvil y escritorio
+    window.open(`https://signal.me/#p=${formattedPhoneNumber}`, "_blank");
   };
 
   return (
