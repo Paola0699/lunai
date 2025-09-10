@@ -1,5 +1,6 @@
 import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 import Nav from "./components/Nav";
+import LanguageSelector from "../languageSelector.js/LanguageSelector";
 
 export default function Header5({ links }) {
   return (
@@ -31,6 +32,8 @@ export default function Header5({ links }) {
       <div className="inner-nav desktop-nav">
         <ul className="clearlist scroll-nav local-scroll justify-content-end scrollspyLinks">
           <Nav links={links} />
+          <LanguageSelector />
+
           <li className="ms-3 me-2" />
           {/*   <li>
             <a

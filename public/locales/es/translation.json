@@ -1,0 +1,119 @@
+{
+  "welcomeText": "Lunai no es solo un retiro. Es un reinicio para mejor.",
+  "aboutUsHeading": "Sobre Nosotros",
+  "aboutUsText": "En Lunai Reset Center, ofrecemos tratamiento con ibogaína bajo supervisión médica para quienes están listos para interrumpir patrones destructivos y reiniciar sus vidas desde adentro hacia afuera. Nuestro proceso integra rigor médico, preparación emocional e integración estructurada posterior al tratamiento.",
+  "facilityHeading": "Nuestras Instalaciones",
+  "facilityText1": "Nuestro retiro está ubicado en un entorno natural pacífico y armonioso, diseñado cuidadosamente para ofrecer seguridad, comodidad y privacidad. Contamos con espacios acogedores tanto para sesiones individuales como grupales, así como áreas verdes ideales para la reflexión personal.",
+  "facilityText2": "Cada habitación está diseñada para invitar al descanso y la introspección, creando un ambiente que respalda tu camino hacia la sanación y el crecimiento emocional. Cada detalle ha sido cuidadosamente considerado para fomentar una sensación de paz y equilibrio interior.",
+  "teamHeading": "Conoce al equipo de expertos",
+  "teamSubheading": "Nuestro Equipo",
+  "teamText": "Conoce al equipo dedicado detrás de nuestra misión: expertos en trauma, salud mental y cuidado integrativo, comprometidos a guiar a cada persona hacia una sanación profunda y duradera.",
+  "servicesHeading": "Transformando vidas donde los tratamientos tradicionales no alcanzan",
+  "serviceText": "Nos especializamos en casos donde los métodos convencionales han fallado: adicción, TEPT, depresión resistente a tratamientos, TCE (traumatismo craneoencefálico), ansiedad y trastornos alimenticios. Todo lo que hacemos está diseñado para profundidad, seguridad y sostenibilidad.",
+  "programHeading": "Nuestro Programa",
+  "programDuration": "9 días",
+  "programText1": "Ofrecemos un programa integral único, diseñado para abordar todo el espectro de tu proceso de sanación, ya sea que enfrentes adicción, TEPT, depresión, ansiedad, traumatismo craneoencefálico o trastornos alimenticios. Cada retiro está estructurado en torno a tres dosis principales de ibogaína, cuidadosamente espaciadas, administradas bajo supervisión médica y apoyadas por un equipo con gran experiencia en seguridad clínica y cuidado psicoespiritual.",
+  "programText2": "Este protocolo permite un efecto terapéutico sostenido y en capas: revelando causas profundas, interrumpiendo patrones arraigados y abriendo la puerta a una transformación a largo plazo. En lugar de ofrecer tratamientos aislados o intervenciones rápidas, proporcionamos un ciclo completo de cuidado: preparación, trabajo intensivo en persona y tres meses de apoyo en la integración para ayudar a estabilizar y reforzar los cambios que inicias durante tu tiempo con nosotros.",
+  "programText3": "Nuestro objetivo no es solo interrumpir síntomas, sino crear las condiciones para un reinicio personal y neurológico duradero.",
+  "faqHeading": "Preguntas Frecuentes",
+  "pricingHeading": "NUESTROS PRECIOS",
+  "retreatHeading": "Opciones de Retiro",
+  "retreatOptions": [
+  {
+    "title": "Transformación VIP Completa",
+    "price": 15000,
+    "per": "9 días (3 sesiones)",
+    "features": [
+      "Todos los beneficios de Transformación Completa más villa de lujo privada, transporte privado y servicios de bienestar personalizados."
+    ],
+    "width": 25,
+    "height": 25,
+    "svgPath": "M13.001 24.022h-2l-.001-19 1.016 1 .984-1 .001 19zm-2.78-8.387c-1.578-.51-3.142-.232-4.108.629-1.519 1.354-1.22 3.616-1.22 3.616s2.58.749 4.109-.614c1.458-1.3 1.219-3.457 1.219-3.631zm3.545 0c1.578-.51 3.142-.232 4.108.629 1.519 1.354 1.221 3.616 1.221 3.616s-2.58.749-4.109-.614c-1.459-1.3-1.219-3.457-1.22-3.631zm4.306-1.148c1.15-.969 2.559-1.271 3.664-.879 1.739.616 2.264 2.617 2.264 2.617s-1.91 1.513-3.66.893c-1.669-.592-2.208-2.485-2.268-2.631zm-12.144 0c-1.15-.969-2.559-1.271-3.664-.879-1.739.616-2.264 2.617-2.264 2.617s1.91 1.513 3.66.893c1.481-.592 2.208-2.485 2.268-2.631zm4.234-.035c.253-1.397-.162-2.693-1.003-3.414-1.322-1.134-3.207-.623-3.207-.623s-.341 2.274.99 3.416c1.269 1.089 3.072.64 3.22.621zm3.676 0c-.253-1.397.162-2.693 1.003-3.414 1.322-1.134 3.207-.623 3.207-.623s.341 2.274-.99 3.416c-1.269 1.089-3.072.64-3.22.621zm4.539-2.347c.42-1.21 1.32-2.045 2.3-2.24 1.542-.306 2.798.93 2.798.93s-.74 1.94-2.291 2.248c-1.481.295-2.699-.857-2.807-.938zm-12.754 0c-.42-1.21-1.32-2.045-2.3-2.24-1.542-.306-2.798.93-2.798.93s.74 1.94 2.291 2.248c1.481.295 2.699-.857 2.807-.938zm7.956-2.362c-.024-1.32.551-2.447 1.43-2.983 1.382-.843 3.036-.093 3.036-.093s-.027 2.139-1.419 2.987c-1.327.81-2.915.128-3.047.089zm-3.158 0c.024-1.32-.551-2.447-1.43-2.983-1.382-.843-3.036-.093-3.036-.093s.027 2.139 1.419 2.987c1.327.81 2.915.128 3.047.089zm-4.788-.5c.075-1.165-.386-2.184-1.14-2.694-1.187-.802-2.678-.207-2.678-.207s-.065 1.89 1.129 2.697c1.14.77 2.57.233 2.689.204zm12.734 0c-.075-1.165.386-2.184 1.14-2.694 1.187-.802 2.678-.207 2.678-.207s.065 1.89-1.129 2.697c-1.14.77-2.57.233-2.689.204zm-4.158-2.955c-.569-1.104-.553-2.293-.034-3.111.816-1.287 2.524-1.341 2.524-1.341s.866 1.815.045 3.11c-.784 1.236-2.407 1.321-2.535 1.342zm-4.418 0c.569-1.104.553-2.293.034-3.111-.816-1.287-2.524-1.341-2.524-1.341s-.866 1.815-.045 3.11c.784 1.236 2.407 1.321 2.535 1.342zm-2.992-.292c.063-.981-.325-1.838-.96-2.268-.998-.675-2.254-.174-2.254-.174s-.054 1.591.951 2.27c.959.648 2.163.197 2.263.172zm10.402 0c-.063-.981.325-1.838.96-2.268.998-.675 2.254-.174 2.254-.174s.054 1.591-.951 2.27c-.959.648-2.163.197-2.263.172zm-5.162-1.057c-.995-.667-1.538-1.679-1.482-2.612.088-1.467 1.504-2.31 1.504-2.31s1.58 1.128 1.492 2.605c-.085 1.408-1.415 2.238-1.514 2.317z"
+  },
+  {
+    "title": "Transformación Completa",
+    "price": 9699,
+    "per": "9 días (3 sesiones)",
+    "features": [
+      "Programa completo con máxima exposición a tratamientos y soporte de integración."
+    ],
+    "width": 58,
+    "height": 64,
+    "svgPath": "M45.375 35.5c-3.625 0-8.125-0.875-11.625-1.75-0.125 0.375-0.25 0.75-0.5 1.125 3.125 1.875 7 4.5 9.5 7 5 5 6.625 8.5 5.125 10-0.375 0.375-0.875 0.5-1.5 0.5-1.875 0-4.75-1.875-8.5-5.625-2.5-2.5-5.125-6.375-7-9.5-0.375 0.25-0.875 0.375-1.25 0.5 0.875 3.5 1.875 8 1.875 11.625 0 7-1.5 10.625-3.5 10.625s-3.5-3.625-3.5-10.625c0-3.625 1-8.125 1.875-11.625-0.375-0.125-0.875-0.25-1.25-0.5-1.875 3.125-4.5 7-7 9.5-3.75 3.75-6.625 5.625-8.5 5.625-0.625 0-1.125-0.125-1.5-0.5-1.5-1.5 0.125-5 5.125-10 2.5-2.5 6.375-5.125 9.5-7-0.25-0.375-0.375-0.75-0.5-1.125-3.5 0.875-8 1.75-11.625 1.75-7 0-10.625-1.5-10.625-3.5s3.625-3.5 10.625-3.5c3.625 0 8.125 1 11.625 1.875 0.125-0.375 0.25-0.875 0.5-1.25-3.125-1.875-7-4.375-9.5-6.875-5-5-6.625-8.5-5.125-10 0.375-0.375 0.875-0.5 1.5-0.5 1.875 0 4.75 1.75 8.5 5.5 2.5 2.5 5.125 6.375 7 9.5 0.375-0.25 0.875-0.375 1.25-0.5-0.875-3.5-1.875-8-1.875-11.625 0-7 1.5-10.625 3.5-10.625s3.5 3.625 3.5 10.625c0 3.625-1 8.125-1.875 11.625 0.375 0.125 0.875 0.25 1.25 0.5 1.875-3.125 4.5-7 7-9.5 3.75-3.75 6.625-5.5 8.5-5.5 0.625 0 1.125 0.125 1.5 0.5 1.5 1.5-0.125 5-5.125 10-2.5 2.5-6.375 5-9.5 6.875 0.25 0.375 0.375 0.875 0.5 1.25 3.5-0.875 8-1.875 11.625-1.875 7 0 10.625 1.5 10.625 3.5s-3.625 3.5-10.625 3.5zM36 31.875v0.375c3.75 0.875 7 1.25 9.375 1.25 2.625 0 4.875-0.25 6.5-0.625 1.25-0.375 1.75-0.75 2-0.875-0.25-0.125-0.75-0.5-2-0.875-1.625-0.375-3.875-0.625-6.5-0.625-2.375 0-5.625 0.5-9.375 1.375zM39.25 18.625c-1.75 1.75-3.75 4.375-5.75 7.625l0.25 0.25c3.25-2 5.875-4 7.625-5.75 1.875-1.875 3.25-3.5 4.125-5 0.625-1.125 0.875-1.75 0.875-2-0.5 0-2.75 0.5-7.125 4.875zM22.25 26.5l0.25-0.25c-2-3.25-4-5.875-5.75-7.625-4.375-4.375-6.625-4.875-7.125-4.875 0 0.25 0.25 0.875 0.875 2 0.875 1.5 2.25 3.125 4.125 5 1.75 1.75 4.375 3.75 7.625 5.75zM10.625 33.5c2.375 0 5.625-0.375 9.375-1.25v-0.375c-3.75-0.875-7-1.375-9.375-1.375-2.625 0-4.875 0.25-6.5 0.625-1.25 0.375-1.75 0.75-2 0.875 0.25 0.125 0.625 0.5 1.875 0.875 1.625 0.375 4 0.625 6.625 0.625zM16.75 45.375c1.75-1.75 3.75-4.375 5.75-7.625l-0.25-0.25c-3.25 2-5.875 4-7.625 5.75-1.875 1.875-3.25 3.625-4.125 5.125-0.625 1.125-0.875 1.75-0.875 2 0.5 0 2.75-0.625 7.125-5zM33.75 37.5l-0.25 0.25c2 3.25 4 5.875 5.75 7.625 4.375 4.375 6.625 5 7.125 5 0-0.25-0.25-0.875-0.875-2-0.875-1.5-2.25-3.25-4.125-5.125-1.75-1.75-4.375-3.75-7.625-5.75zM27.125 8.125c-0.375 1.625-0.625 3.875-0.625 6.5 0 2.375 0.5 5.625 1.375 9.375h0.25c0.875-3.75 1.375-7 1.375-9.375 0-2.625-0.25-4.875-0.625-6.5-0.375-1.25-0.75-1.75-0.875-2-0.125 0.25-0.5 0.75-0.875 2zM28.875 56c0.375-1.625 0.625-4 0.625-6.625 0-2.375-0.5-5.625-1.375-9.375h-0.25c-0.875 3.75-1.375 7-1.375 9.375 0 2.625 0.25 5 0.625 6.625 0.375 1.25 0.75 1.625 0.875 1.875 0.125-0.25 0.5-0.625 0.875-1.875zM28 36c2.25 0 4-1.75 4-4s-1.75-4-4-4-4 1.75-4 4 1.75 4 4 4zM39.125 50.75c1.25 4.25 0.875 6.625-0.625 7.25-0.25 0.125-0.375 0.125-0.625 0.125-1.375 0-3.125-1.625-4.625-4.375 0.625-4.375-0.25-9.5-0.25-9.5s3 4.25 6.125 6.5zM37.75 56.125c0.125-0.5 0.25-1.75-0.375-4.25-0.625-0.5-1.25-1.125-1.875-1.75 0 1.125 0 2.125-0.125 3.125 1.25 2 2 2.75 2.375 2.875zM22.75 10.375c-0.75 4.375 0.125 9.375 0.125 9.375s-3.375-4.375-6-6.375c-1.25-4.375-0.875-6.75 0.625-7.375 0.25-0.125 0.375-0.125 0.625-0.125 1.375 0 3 1.5 4.625 4.5zM20.5 13.875c0-1.125 0-2.125 0.125-3.125-1.25-2-2-2.625-2.375-2.75-0.125 0.5-0.25 1.75 0.375 4.25 0.625 0.5 1.25 1 1.875 1.625zM6.25 37.375c4.375 0.5 9.5-0.25 9.5-0.25s-4.25 3-6.375 6c-1.5 0.5-3.25 0.75-4.375 0.75-1.625 0-2.625-0.5-3-1.375-0.625-1.375 0.875-3.125 4.25-5.125zM8.25 41.375c0.5-0.625 1-1.25 1.625-1.875-1.125 0-2.125 0-3.125-0.125-2 1.25-2.625 2-2.75 2.375 0.125 0 0.5 0.125 1 0.125 0.875 0 2-0.125 3.25-0.5zM54 21.5c0.625 1.375-0.875 3.25-4.25 5.25-4.375-0.625-9.5 0.25-9.5 0.25s4.125-3.125 6.375-6.125c1.625-0.5 3.25-0.625 4.375-0.625 1.625 0 2.625 0.375 3 1.25zM49.25 24.75c2-1.25 2.625-2 2.75-2.375-0.125 0-0.5-0.125-1-0.125-0.875 0-2 0.125-3.25 0.5-0.5 0.625-1 1.125-1.625 1.75 1.125 0 2.125 0.125 3.125 0.25zM16.375 51.125c3.875-3 6.625-6.875 6.625-6.875s-0.875 4.875-0.375 8.875c-1.875 3.25-3.5 4.875-4.875 4.875-0.25 0-0.5 0-0.75-0.125-1.375-0.625-1.625-3-0.625-6.75zM17.875 55.875c0.5-0.25 1.5-1 2.75-3.25 0-0.75-0.125-1.625-0.125-2.5-0.75 0.75-1.625 1.5-2.375 2.125-0.5 2.25-0.375 3.25-0.25 3.625zM39 6.25c1.375 0.625 1.625 2.75 0.625 6.75-3.625 2.625-6.625 6.875-6.625 6.875s1-6 0.375-8.875c1.625-3.125 3.5-4.875 4.875-4.875 0.25 0 0.5 0 0.75 0.125zM37.875 11.875c0.625-2.25 0.375-3.375 0.25-3.75-0.5 0.25-1.5 1-2.75 3.25 0 0.75 0.125 1.75 0.125 2.625 0.75-0.75 1.625-1.5 2.375-2.125zM8.875 20.375c2.25 3 6.875 6.625 6.875 6.625s-5-0.875-8.75-0.375c-3.5-1.875-5.375-4-4.75-5.5 0.375-0.875 1.25-1.375 2.75-1.375 1 0 2.625 0.125 3.875 0.625zM4.125 21.875c0.25 0.5 1 1.5 3.25 2.75 0.75 0 1.625-0.125 2.5-0.125-0.75-0.75-1.5-1.5-2.125-2.25-1-0.25-2-0.5-2.75-0.5-0.5 0-0.75 0.125-0.875 0.125zM49 37.375c3.75 2.125 5.375 4.125 4.75 5.625-0.375 0.875-1.25 1.25-2.75 1.25-1 0-2.375-0.125-3.875-0.625-2.5-3.375-6.875-6.5-6.875-6.5s5.625 1 8.75 0.25zM51 42.25c0.5 0 0.75-0.125 0.875-0.125-0.25-0.5-1-1.5-3.25-2.75-0.75 0-1.625 0.125-2.5 0.125 0.75 0.75 1.5 1.625 2.125 2.375 1 0.25 2 0.375 2.75 0.375z"
+  },
+  {
+    "title": "Reinicio Esencial",
+    "price": 5999,
+    "per": "5 días (2 sesiones)",
+    "features": [
+      "Programa enfocado en rejuvenecimiento esencial y prácticas básicas de bienestar."
+    ],
+    "width": 58,
+    "height": 64,
+    "svgPath": "M35.5 19.125c-0.5 0.125-1.125 0.375-1.625 0.5-4.625 1.375-8.875 3-12.875 4.875-2.125 1-3 1.5-5.5 3l-0.875 0.5c-3.875 2.25-6.25 4.125-7.875 6.375-1.875 2.625-2.75 5.625-2.75 9.625 0 2 0.375 3.75 1.125 5.5 0.75 1.625 1.75 3.25 3.125 4.5 2.875 2.625 6.875 4 11.75 4s8.875-1.375 11.75-4c1.375-1.25 2.375-2.875 3.125-4.5 0.75-1.75 1.125-3.5 1.125-5.5 0-2.5-0.625-5-1.375-7.5-1.375-5-2.875-10.375 0.875-17.375zM40 16v0c-9.625 12-2 18.875-2 28s-7 16-18 16-18-6.875-18-16 4.375-13.625 11.625-17.75c3.125-1.75 4.125-2.375 6.5-3.5 3.75-1.75 8.125-3.5 13.125-5 2.125-0.625 4.375-1.25 6.75-1.75zM4.75 15.375c1.75 3.5 2.25 7.125 2.375 10.375 1.125-0.875 2.5-1.625 3.75-2.5 0.875-0.5 1.75-1.125 2.625-1.625 0.625-0.375 1.25-0.75 2-1.125-0.625-0.5-1.375-0.875-2.125-1.375-2.75-1.625-6-2.875-8.625-3.75zM0 12v0s8.25 1.875 14.375 5.375c1.875 1 3.5 2.25 4.625 3.625-1.5 0.75-3 1.5-4.5 2.375-0.875 0.5-1.75 1-2.5 1.5-3.125 2-5.5 3.875-7.125 5.25 0.625-5.125 0.25-12.25-4.875-18.125zM31.125 10.125c-1 0.125-2.5 0.25-4.375 0.875-3.125 1-5.875 2.5-8 4.5 1 0.75 1.875 1.5 2.625 2.25 3.625-1.5 8.125-3.25 11.875-4.25-0.625-1.25-1.5-2.5-2.125-3.375zM32 8v0s3.25 4 4 6.875c-4.125 1-10.5 3.125-15.125 5.25l-0.375-0.375c-1.125-1.375-2.75-2.75-4.875-4 6.5-7.5 16.375-7.75 16.375-7.75zM10.625 6.75c-0.75 1.25-1.25 2.5-1.75 3.5 1.5 0.5 2.75 1.25 4.5 2.125 0.5-0.625 1.125-1.25 1.75-1.75-1.625-1.875-3.375-3.125-4.5-3.875zM10 4v0s4.375 2 8 7c-1.5 1.125-2.875 2.5-4.125 3.875-3.25-1.625-5-2.625-7.625-3.375 0.625-1.875 1.875-4.75 3.75-7.5z"
+  },
+  {
+    "title": "Escape Consciente",
+    "price": 4999,
+    "per": "4 días (1 sesión)",
+    "features": [
+      "Retiro corto enfocado en mindfulness, meditación y reflexión personal."
+    ],
+    "width": 30,
+    "height": 30,
+    "svgPath":"M12.297 5.574l-.005-.005s1.703-1.754 2.388-2.259c1.181-.871 2.743-.339 2.743-.339s.021 1.465-.936 2.06c-.913.568-1.788.333-1.882.307.355-.5.853-1.165 1.521-1.498-.493-.028-1.09.246-1.557.681-.38.353-1.26 1.257-1.57 1.576v3.1c1.068-.86 3.035-2.439 3.603-2.877 1.568-1.212 3.691-.522 3.691-.522s.028 1.963-1.254 2.76c-1.223.76-2.753.298-2.878.263.605-.668 1.563-1.277 2.457-1.722-.898-.122-1.614.157-2.749 1.06-.789.629-2.491 2.013-2.87 2.321v3.201c1.229-.929 3.753-2.811 4.9-3.452 2.85-1.593 5.101-.284 5.101-.284s-.263 2.57-2.061 3.417c-1.714.808-3.837-.076-3.996-.14.893-.782 2.197-1.467 3.585-1.816-1.316-.209-2.626-.195-4.415 1.213-.95.747-2.665 1.997-3.114 2.323l.001 9.08h-2l-.001-9.08c-.45-.328-2.162-1.576-3.112-2.323-1.789-1.408-3.099-1.422-4.415-1.213 1.388.349 2.692 1.034 3.585 1.816-.159.064-2.282.948-3.996.14-1.798-.847-2.061-3.417-2.061-3.417s2.251-1.309 5.101.284c1.146.641 3.67 2.521 4.898 3.452v-3.198c-.37-.301-2.081-1.693-2.874-2.324-1.135-.903-1.851-1.182-2.749-1.06.895.445 1.853 1.054 2.457 1.722-.125.035-1.655.497-2.877-.263-1.282-.797-1.254-2.76-1.254-2.76s2.122-.69 3.691.522c.568.439 2.539 2.021 3.606 2.88v-3.105c-.311-.321-1.189-1.222-1.568-1.574-.467-.435-1.064-.709-1.557-.681.668.333 1.166.998 1.521 1.498-.094.026-.969.261-1.882-.307-.957-.595-.936-2.06-.936-2.06s1.562-.532 2.743.339c.685.505 2.388 2.259 2.388 2.259l-.006.007.297.276.298-.278zm2.895 9.386c.389-.138 2.022-.636 3.583.12 1.788.866 2.037 3.461 2.037 3.461s-2.178 1.42-3.978.549c-1.717-.831-2.297-2.637-2.347-2.801 1.177.203 2.363.618 3.494 1.305-.847-1.062-1.783-1.926-2.789-2.634zm-6.384 0c-.389-.138-2.022-.636-3.583.12-1.788.866-2.037 3.461-2.037 3.461s2.178 1.42 3.978.549c1.717-.831 2.297-2.637 2.347-2.801-1.177.203-2.363.618-3.494 1.305.847-1.062 1.783-1.926 2.789-2.634zm3.664-10.973c.175-.175.866-.929.861-1.969-.005-1.19-1.344-1.996-1.344-1.996s-1.332.811-1.326 2.009c.006 1.143.832 1.924.908 1.993.194-.689.276-1.437.198-2.227.355.734.58 1.463.703 2.19z"
+  }
+],
+  "VIPFullTransformationDescription": "Todos los beneficios de la Transformación Completa más villa privada de lujo, transporte privado y servicios de bienestar personalizados.",
+  "FullTransformationDescription": "Programa completo con máxima exposición al tratamiento y apoyo en la integración.",
+  "DeepRenewalDescription": "Tratamiento extendido para un trabajo psicológico más profundo y mayor tiempo de integración.",
+  "EssentialsResetDescription": "Tratamiento enfocado y eficiente en tiempo, que incluye supervisión médica completa, preparación e integración.",
+  "servicesHeading2": "Nuestros Servicios",
+  "servicesSubheading": "Caminos hacia la Sanación",
+  "servicesList": [
+    "Evaluación clínica completa",
+    "4 sesiones preparatorias (antes de la llegada)",
+    "Alojamiento privado y comidas",
+    "Administración de ibogaína con supervisión 24/7",
+    "Apoyo personalizado de profesionales acreditados",
+    "12 sesiones de integración (después del tratamiento)",
+    "Acceso a cuadernos de trabajo de preparación e integración",
+    "Comunicación continua con nuestro equipo"
+  ],
+  "contactHeading": "Cada caso es evaluado de forma única y guiado con precisión, cuidado y visión a largo plazo.",
+  "contactInputPlaceholder": "Introduce tu correo electrónico",
+  "contactButtonText": "Suscribirse Ahora",
+  "contactFooter": "Al enviar el formulario aceptas los Términos y Condiciones y la Política de Privacidad.",
+  "faqQuestions": [
+    {
+      "question": "¿Cuál es el costo del tratamiento?",
+      "answer": "El costo estándar de nuestro retiro terapéutico inmersivo de 9 días es de $9,700. Esto incluye apoyo integral de preparación e integración, supervisión médica y un programa completo de sesiones de tratamiento guiadas para fomentar una transformación duradera. Reconocemos que algunas personas altamente motivadas pueden no tener los medios económicos para cubrir el costo total. Por esta razón, ofrecemos un número limitado de opciones de asistencia financiera basadas en necesidad para quienes demuestran fuerte intención y disposición al cambio. Para determinar la elegibilidad y recibir una evaluación de costo personalizada, animamos a todos los participantes interesados a completar nuestro formulario de aplicación o contactarnos directamente para hablar con un coordinador de admisión."
+    },
+    {
+      "question": "¿Dónde están ubicados?",
+      "answer": "Estamos ubicados dentro de los terrenos de Hacienda Los Picachos, una finca privada en las afueras de San Miguel de Allende, México. Situada en el paisaje del desierto alto de las tierras centrales, nuestra instalación ofrece un entorno discreto y tranquilo, tanto restaurador como propicio para un trabajo personal profundo. La hacienda brinda un espacio seguro y sereno, rodeado de cielos abiertos, flora nativa y vistas panorámicas de las montañas circundantes. Aunque a solo unos minutos en coche del centro cultural e histórico de San Miguel, declarado Patrimonio de la Humanidad por la UNESCO, nuestra ubicación permanece intencionalmente apartada, permitiendo un sentido de contención y enfoque durante tu estadía. Nuestros espacios de tratamiento están diseñados cuidadosamente para equilibrar simplicidad y comodidad. Encontrarás áreas tranquilas para la reflexión, alojamiento privado y acceso a la naturaleza, todo contribuyendo a una experiencia que respalda tanto la profundidad psicológica como la recuperación física. Este entorno juega un papel importante en el proceso terapéutico. Al eliminar las distracciones de la vida cotidiana y colocarte en un ambiente seguro, estable y separado de tu contexto habitual, creamos las condiciones necesarias para una transformación significativa."
+    },
+    {
+      "question": "¿Dónde puedo hacerme un electrocardiograma (EKG)?",
+      "answer": "Solicitamos que nos envíes un EKG con una antigüedad no mayor a tres meses antes de tu llegada. Tu médico general puede expedir una orden para este estudio, que luego podrás realizar en un laboratorio. Si no cuentas con médico general, la mayoría de las clínicas de atención inmediata pueden proporcionarlo a solicitud. Nota: requerimos el resultado completo de la prueba, no solo la interpretación del médico."
+    },
+    {
+      "question": "¿Dónde puedo hacerme análisis de sangre?",
+      "answer": "Nuestros protocolos de desintoxicación requieren que te realices análisis de sangre antes de la llegada, los cuales deben incluir un panel metabólico completo, con potasio, magnesio y enzimas hepáticas. Cualquier laboratorio de atención inmediata suele poder realizar esto y enviar los resultados por correo electrónico. QuestLabs en Estados Unidos cuenta con un buscador de sucursales para encontrar el laboratorio más cercano."
+    },
+    {
+      "question": "¿Debo suspender mis medicamentos?",
+      "answer": "Existen muchos fármacos y medicamentos que presentan interacciones significativas con la ibogaína. Algunos de ellos, incluidos muchos medicamentos psiquiátricos como los antidepresivos ISRS, son incompatibles con la ibogaína y requerimos que los suspendas de forma gradual antes de llegar a la instalación. Esto no aplica a todos los medicamentos. Algunos podemos manejarlos en el lugar, incluso cuando existen riesgos de seguridad, como los opioides y las benzodiacepinas."
+    },
+    {
+      "question": "¿Debo dejar de consumir alcohol?",
+      "answer": "Sí. Requerimos que las personas dejen de consumir alcohol al menos 5 días antes de la llegada. Si corres riesgo de presentar síndrome de abstinencia alcohólica, como temblores o convulsiones, esto debe manejarse con medicación y la asistencia de un médico. Podemos proporcionar desintoxicación supervisada de alcohol en nuestras instalaciones privadas."
+    },
+    {
+      "question": "¿Cómo puedo prepararme mejor?",
+      "answer": "Proporcionamos a cada participante acceso a un coach informado en ibogaína, quien actúa como figura clave de apoyo durante todo el proceso de preparación e integración. Recomendamos fuertemente interactuar con tu coach al menos cuatro veces antes de la llegada. Estas sesiones ayudan a clarificar tus intenciones, generar preparación psicológica y establecer la base para una experiencia más impactante. Además del coaching individual, recibirás un cuaderno de trabajo estructurado diseñado para guiar la autoindagación, seguir el progreso y alinear tus metas internas con cambios externos prácticos. Tu coach trabajará contigo para identificar las áreas específicas de tu vida que deseas transformar, ya sea asegurar un nuevo entorno de vida, iniciar una rutina de ejercicio, ajustar hábitos alimenticios o construir relaciones más saludables. Otras recomendaciones de preparación pueden provenir de nuestro equipo médico, especialmente en casos que involucren ajustes de medicación o consideraciones de salud específicas. Nuestro equipo clínico y terapéutico trabaja en estrecha coordinación para asegurar que cada participante llegue en un estado óptimo, física, emocional y psicológicamente. Hemos comprobado que cuanto más sólido sea tu trabajo previo al tratamiento, más efectivamente podrás integrar las ideas y transformaciones que suelen surgir. Para apoyar esta evolución continua, ofrecemos tres meses de integración posterior al tratamiento, incluidas sesiones semanales, para ayudar a consolidar el progreso alcanzado durante tu estadía y llevarlo a tu vida diaria."
+    }
+  ],
+    "language_selector_label": "Seleccionar Idioma",
+    "scroll_down": "Desplazarse Hacia Abajo"
+}

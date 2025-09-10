@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="container position-relative">
@@ -11,7 +14,7 @@ export default function About() {
                 className="section-title mb-40 mb-sm-30"
                 style={{ color: "#2f3a59" }}
               >
-                Facility
+                {t("facilityHeading")}
               </h3>
             </div>
             <div className="row text-start text-gray mb-80 mb-sm-60">
@@ -19,20 +22,13 @@ export default function About() {
                 className="col-md-6 mb-sm-20 wow linesAnimInLong"
                 data-splitting="lines"
               >
-                Our retreat is nestled in a peaceful and harmonious natural
-                setting, thoughtfully designed to offer safety, comfort, and
-                privacy. We provide welcoming spaces for both individual and
-                group sessions, as well as green areas ideal for personal
-                reflection.
+                {t("facilityText1")}
               </div>
               <div
                 className="col-md-6 wow linesAnimInLong"
                 data-splitting="lines"
               >
-                Each room is designed to invite rest and introspection, creating
-                an environment that supports your journey toward healing and
-                emotional growth. Every detail has been carefully considered to
-                foster a sense of peace and inner balance. growth.
+                {t("facilityText2")}
               </div>
             </div>
           </div>

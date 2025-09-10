@@ -1,16 +1,16 @@
 import Team from "./Team";
 import Newsletter from "./Newsletter";
 import Steps from "../home-4/Steps";
-import { Link } from "react-router-dom";
-import Slider1 from "@/components/elements/Slider1";
 import Faqs from "../home-1/Faq";
-import Gallery1 from "@/components/gallery/Gallery1";
 import About from "../home-7/About";
 import Slider4 from "@/components/elements/Slider4";
 import Pricing from "../home-1/Pricing";
 import AnimatedText from "@/components/common/AnimatedText";
+import { useTranslation } from "react-i18next";
 
 export default function Home10({ onePage = false, dark = false }) {
+  const { t } = useTranslation();
+  const services = t("servicesList", { returnObjects: true });
   return (
     <>
       <section
@@ -32,7 +32,7 @@ export default function Home10({ onePage = false, dark = false }) {
                 className="section-title-strong mb-90 mb-sm-50"
                 style={{ color: "#2f3a59" }}
               >
-                About Us
+                {t("aboutUsHeading")}
               </h3>
             </div>
           </div>
@@ -67,11 +67,7 @@ export default function Home10({ onePage = false, dark = false }) {
             <div className="col-sm-8 col-lg-6 col-xl-4 offset-xl-1 mt-n10">
               <div className="wow linesAnimIn" data-splitting="lines">
                 <p className="lead mt-0 mb-40" style={{ color: "#2f3a59" }}>
-                  At <b>Lunai Reset Center</b>, we provide medically supervised
-                  ibogaine treatment for those ready to interrupt destructive
-                  patterns and reset their lives from the inside out. Our
-                  process integrates medical rigor, emotional preparation, and
-                  structured post-treatment integration.
+                  {t("aboutUsText")}
                 </p>
               </div>
             </div>
@@ -97,7 +93,11 @@ export default function Home10({ onePage = false, dark = false }) {
         <Slider4 />
       </section>
 
-      <section className="page-section" id="facility">
+      <section
+        className="page-section"
+        id="facility"
+        style={{ backgroundColor: "rgb(242, 239, 231)" }}
+      >
         <About />
       </section>
 
@@ -116,18 +116,16 @@ export default function Home10({ onePage = false, dark = false }) {
                   className="section-caption-border"
                   style={{ color: "#2f3a59", borderColor: "#2f3a59" }}
                 >
-                  Our Team
+                  {t("teamSubheading")}
                 </h2>
                 <h3
                   className="section-title-strong mb-40"
                   style={{ color: "#2f3a59" }}
                 >
-                  Meet the <span className="font-alt">team of</span> experts
+                  {t("teamHeading")}
                 </h3>
                 <p className="mb-40" style={{ color: "#2f3a59" }}>
-                  Meet the dedicated team behind our mission—experts in trauma,
-                  mental health, and integrative care—committed to guiding each
-                  person toward deep, lasting healing.
+                  {t("teamText")}
                 </p>
               </div>
             </div>
@@ -150,19 +148,14 @@ export default function Home10({ onePage = false, dark = false }) {
               style={{ backgroundColor: "#DCEBEB", paddingLeft: "2rem" }}
             >
               <div>
-                <h3 className="section-title mb-30">
-                  Transforming
-                  <span className="font-alt">
-                    Lives Where Traditional Treatments{" "}
-                  </span>{" "}
-                  Fall Short
+                <h3
+                  style={{ color: "#2f3a59" }}
+                  className="section-title mb-30"
+                >
+                  {t("servicesHeading")}
                 </h3>
-                <p className="mb-50">
-                  We specialize in cases that conventional methods have failed:
-                  addiction, PTSD, treatment-resistant depression, TBI
-                  (traumatic brain injury), anxiety, and eating disorders.
-                  Everything we do is designed for depth, safety, and
-                  sustainability.
+                <p style={{ color: "#2f3a59" }} className="mb-50">
+                  {t("serviceText")}
                 </p>
               </div>
             </div>
@@ -208,11 +201,11 @@ export default function Home10({ onePage = false, dark = false }) {
                 data-wow-duration="1.2s"
                 style={{ color: "#2f3a59" }}
               >
-                OUR PRICING
+                {t("pricingHeading")}
               </h2>
               <h1 className="hs-title-1 mb-0" style={{ color: "#2f3a59" }}>
                 <span className="wow charsAnimIn" data-splitting="chars">
-                  <AnimatedText text="Retreat Options" />
+                  <AnimatedText text={t("retreatHeading")} />
                 </span>
               </h1>
             </div>
@@ -236,13 +229,13 @@ export default function Home10({ onePage = false, dark = false }) {
                 style={{ color: "#2f3a59", borderColor: "#2f3a59" }}
               >
                 {" "}
-                Our Services
+                {t("servicesHeading2")}
               </h2>
               <h3
                 style={{ color: "#2f3a59" }}
                 className="section-title-strong mb-90 mb-sm-50"
               >
-                Pathways to Healing
+                {t("servicesSubheading")}
               </h3>
             </div>
           </div>
@@ -251,88 +244,34 @@ export default function Home10({ onePage = false, dark = false }) {
             <div className="col-md-6 ">
               <div className="mt-n10">
                 {/* Features List Item */}
-                <div className="d-flex justify-content-center justify-content-lg-start mt-10">
-                  <div className="features-list-icon features-list-color-1">
-                    <i className="mi-check" aria-hidden="true" />
-                  </div>
-                  <div className="features-list-text">
-                    Full clinical screening
-                  </div>
-                </div>
-                {/* End Features List Item */}
-                {/* Features List Item */}
-                <div className="d-flex justify-content-center justify-content-lg-start mt-10">
-                  <div className="features-list-icon features-list-color-1">
-                    <i className="mi-check" aria-hidden="true" />
-                  </div>
-                  <div className="features-list-text">
-                    4 preparatory sessions (before arrival)
-                  </div>
-                </div>
-                {/* End Features List Item */}
-                {/* Features List Item */}
-                <div className="d-flex justify-content-center justify-content-lg-start mt-10">
-                  <div className="features-list-icon features-list-color-1">
-                    <i className="mi-check" aria-hidden="true" />
-                  </div>
-                  <div className="features-list-text">
-                    Private accommodation and meals
-                  </div>
-                </div>
-                {/* End Features List Item */}
-                {/* Features List Item */}
-                <div className="d-flex justify-content-center justify-content-lg-start mt-10">
-                  <div className="features-list-icon features-list-color-1">
-                    <i className="mi-check" aria-hidden="true" />
-                  </div>
-                  <div className="features-list-text">
-                    Ibogaine administration with 24/7 supervision
-                  </div>
-                </div>
+                {Array.isArray(services) &&
+                  services.slice(0, 4).map((service, index) => (
+                    <div
+                      key={index}
+                      className="d-flex justify-content-center justify-content-lg-start mt-10"
+                    >
+                      <div className="features-list-icon features-list-color-1">
+                        <i className="mi-check" aria-hidden="true" />
+                      </div>
+                      <div className="features-list-text">{service}</div>
+                    </div>
+                  ))}
                 {/* End Features List Item */}
               </div>
             </div>
             <div className="col-md-6 ">
-              {/* Features List Item */}
-              <div className="d-flex justify-content-center justify-content-lg-start mt-10">
-                <div className="features-list-icon features-list-color-1">
-                  <i className="mi-check" aria-hidden="true" />
-                </div>
-                <div className="features-list-text">
-                  Personalized support from licensed professionals
-                </div>
-              </div>
-              {/* End Features List Item */}
-              {/* Features List Item */}
-              <div className="d-flex justify-content-center justify-content-lg-start mt-10">
-                <div className="features-list-icon features-list-color-1">
-                  <i className="mi-check" aria-hidden="true" />
-                </div>
-                <div className="features-list-text">
-                  12 integration sessions (after treatment)
-                </div>
-              </div>
-              {/* End Features List Item */}
-              {/* Features List Item */}
-              <div className="d-flex justify-content-center justify-content-lg-start mt-10">
-                <div className="features-list-icon features-list-color-1">
-                  <i className="mi-check" aria-hidden="true" />
-                </div>
-                <div className="features-list-text">
-                  Access to both preparation and integration workbooks
-                </div>
-              </div>
-              {/* End Features List Item */}
-              {/* Features List Item */}
-              <div className="d-flex justify-content-center justify-content-lg-start mt-10">
-                <div className="features-list-icon features-list-color-1">
-                  <i className="mi-check" aria-hidden="true" />
-                </div>
-                <div className="features-list-text">
-                  Ongoing communication with our team
-                </div>
-              </div>
-              {/* End Features List Item */}
+              {Array.isArray(services) &&
+                services.slice(4, 8).map((service, index) => (
+                  <div
+                    key={index}
+                    className="d-flex justify-content-center justify-content-lg-start mt-10"
+                  >
+                    <div className="features-list-icon features-list-color-1">
+                      <i className="mi-check" aria-hidden="true" />
+                    </div>
+                    <div className="features-list-text">{service}</div>
+                  </div>
+                ))}
             </div>
           </div>
         </div>
@@ -355,9 +294,8 @@ export default function Home10({ onePage = false, dark = false }) {
                 className="section-title text-center mb-80 mb-sm-60"
                 style={{ color: "#2f3a59" }}
               >
-                Frequently Asked Questions
+                {t("faqHeading")}
               </h3>
-
               {/* <!-- Accordion --> */}
               <Faqs />
               {/* <!-- End Accordion --> */}

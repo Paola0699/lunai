@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import { useState } from "react";
 const scriptUrl = import.meta.env.VITE_GOOGLE_SCRIPT_URL;
 
@@ -35,8 +36,7 @@ export default function Newsletter() {
       <div className="row">
         <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 wow fadeInUp">
           <h3 className="section-title text-center mb-40">
-            Each case is uniquely evaluated and guided with precision, care, and
-            long-term vision.
+            {t("contactHeading")}
           </h3>
           <form
             onSubmit={handleSubmit}
@@ -48,7 +48,7 @@ export default function Newsletter() {
                 Your email
               </label>
               <input
-                placeholder="Enter your email"
+                placeholder={t("contactInputPlaceholder")}
                 className="newsletter-field input-lg round"
                 id="newsletter-email"
                 name="newsletter-email"
@@ -65,13 +65,11 @@ export default function Newsletter() {
                 className="newsletter-button btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                 disabled={loading}
               >
-                <span>{loading ? "Sending..." : "Subscribe Now"}</span>
+                <span>{loading ? "Sending..." : t("contactButtonText")}</span>
               </button>
             </div>
             <div className="form-tip">
-              <i className="icon-info size-16" /> By sending the form you agree
-              to the <a href="#">Terms &amp; Conditions</a> and{" "}
-              <a href="#">Privacy Policy</a>.
+              <i className="icon-info size-16" /> {t("contactFooter")}
             </div>
             <div
               id="subscribe-result"

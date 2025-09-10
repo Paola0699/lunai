@@ -1,5 +1,6 @@
 import React from "react";
 import { loadStripe } from "@stripe/stripe-js"; // Importa loadStripe
+import { t } from "i18next";
 
 // Carga tu clave publicable de Stripe
 // Asegúrate de que VITE_STRIPE_PUBLISHABLE_KEY esté en tu archivo .env en la raíz de tu proyecto React
@@ -56,7 +57,7 @@ export default function Steps() {
       <div className="row">
         <div className="col-md-10 offset-md-1 col-lg-6 offset-lg-3">
           <h2 className="section-title mb-70 mb-sm-50 text-center">
-            Our Program
+            {t("programHeading")}
           </h2>
           {/* Steps Grid */}
           <div className="mb-n20">
@@ -74,35 +75,11 @@ export default function Steps() {
                 >
                   Ibogaine Reset
                 </h3>
-                <h6 style={{ textAlign: "center" }}>9 days</h6>
+                <h6 style={{ textAlign: "center" }}> {t("programDuration")}</h6>
 
-                <p
-                  className="steps-2-text mb-0"
-                  style={{ whiteSpace: "pre-line" }}
-                >
-                  We offer a single, comprehensive program designed to address
-                  the full spectrum of your healing process—whether you're
-                  navigating addiction, PTSD, depression, anxiety, traumatic
-                  brain injury, or eating disorders. Each retreat is structured
-                  around three carefully spaced flood doses of ibogaine,
-                  administered under medical supervision and supported by a team
-                  deeply experienced in both clinical safety and psychospiritual
-                  care.
-                </p>
-                <p>
-                  This protocol allows for a layered and sustained therapeutic
-                  effect—uncovering root causes, interrupting entrenched
-                  patterns, and opening the door to long-term transformation.
-                  Rather than offering isolated treatments or quick
-                  interventions, we provide a full arc of care: preparation,
-                  intensive in-person work, and three months of integration
-                  support to help stabilize and reinforce the changes you begin
-                  during your time with us.
-                </p>
-                <p>
-                  Our goal is not just to interrupt symptoms, but to create the
-                  conditions for lasting personal and neurological reset.
-                </p>
+                <p>{t("programText1")}</p>
+                <p>{t("programText2")}</p>
+                <p>{t("programText3")}</p>
                 {/*  <button
                   aria-controls="subscribe-result"
                   className="btn btn-mod btn-medium btn-circle text-nowrap"

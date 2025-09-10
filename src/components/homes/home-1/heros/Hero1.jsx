@@ -2,9 +2,12 @@ import AnimatedText from "@/components/common/AnimatedText";
 import { parallaxMouseMovement } from "@/utlis/parallax";
 
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import ModalVideo from "react-modal-video";
 
 export default function Hero1() {
+  const { t } = useTranslation();
+
   useEffect(() => {
     parallaxMouseMovement();
   }, []);
@@ -20,11 +23,7 @@ export default function Hero1() {
             <div className="col-md-6 d-flex align-items-center mb-sm-60">
               <div>
                 <h1 className="hs-title-1 mb-30" style={{ color: "white" }}>
-                  <AnimatedText
-                    text={
-                      "Lunai is not just a retreat. It's a reset for the better."
-                    }
-                  />
+                  <AnimatedText text={t("welcomeText")} />
                 </h1>
                 {/*  <div
                   className="local-scroll mt-n10 wow fadeInUp wch-unset"
@@ -57,7 +56,7 @@ export default function Hero1() {
                 <i className="mi-arrow-down" />
               </div>
               <div className="scroll-down-1-text" style={{ color: "white" }}>
-                Scroll Down
+                {t("scroll_down")}
               </div>
             </a>
           </div>

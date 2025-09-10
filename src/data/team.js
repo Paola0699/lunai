@@ -76,7 +76,7 @@ export const teamMembers2 = [
 
 export const teamMembers3 = [
   {
-    name: "Laura Carbajal ",
+    name: "Laura Carbajal",
     role: "Psychologist",
     description:
       "",

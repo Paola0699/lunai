@@ -1,6 +1,4 @@
 import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
-
 import ParallaxContainer from "@/components/common/ParallaxContainer";
 import Hero1 from "@/components/homes/home-1/heros/Hero1";
 

@@ -27,26 +27,27 @@ export default function Faq({ faqData = faqDataMain }) {
 
   return (
     <dl className="toggle">
-      {faqData.map((item, index) => (
-        <React.Fragment key={index}>
-          <dt
-            onClick={() => {
-              setCurrentIndex((pre) => (pre == index ? -1 : index));
-            }}
-          >
-            <a ref={(el) => (questionRefs.current[index] = el)}>
-              {item.question}
-            </a>
-          </dt>
-          <p
-            ref={(el) => (answerRefs.current[index] = el)}
-            className="black faqAnswer"
-            style={{ whiteSpace: "pre-line" }}
-          >
-            {item.answer}
-          </p>
-        </React.Fragment>
-      ))}
+      {Array.isArray(faqData) &&
+        faqData.map((item, index) => (
+          <React.Fragment key={index}>
+            <dt
+              onClick={() => {
+                setCurrentIndex((pre) => (pre == index ? -1 : index));
+              }}
+            >
+              <a ref={(el) => (questionRefs.current[index] = el)}>
+                {item.question}
+              </a>
+            </dt>
+            <p
+              ref={(el) => (answerRefs.current[index] = el)}
+              className="black faqAnswer"
+              style={{ whiteSpace: "pre-line" }}
+            >
+              {item.answer}
+            </p>
+          </React.Fragment>
+        ))}
     </dl>
   );
 }
