@@ -16,8 +16,16 @@ const SignalLogo = () => (
 
 const SignalButton = ({ phoneNumber }) => {
   const handleClick = () => {
-    // Abre Signal Web con el número indicado
-    window.open(`https://signal.me/#p=${phoneNumber}`, "_blank");
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    if (isMobile) {
+      // En móviles, intenta abrir la app de Signal con un mensaje
+      const message = encodeURIComponent("Hola desde mi app");
+      window.location.href = `sgnl://send?text=${message}`;
+    } else {
+      // En escritorio, abre Signal Web directo al número
+      window.open(`https://signal.me/#p=${phoneNumber}`, "_blank");
+    }
   };
 
   return (
