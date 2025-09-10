@@ -304,7 +304,7 @@ export default function Home10({ onePage = false, dark = false }) {
           </div>
         </div>
       </section>
-      <SignalButton phoneNumber="+524428218363" />
+      <SignalButton phoneNumber="+52 442 821 8363" />
       <section className="pt-30">
         <div id="paddingRightContainer" className="container" />
       </section>
