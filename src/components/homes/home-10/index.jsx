@@ -7,6 +7,7 @@ import Slider4 from "@/components/elements/Slider4";
 import Pricing from "../home-1/Pricing";
 import AnimatedText from "@/components/common/AnimatedText";
 import { useTranslation } from "react-i18next";
+import SignalButton from "@/components/elements/SignalButton";
 
 export default function Home10({ onePage = false, dark = false }) {
   const { t } = useTranslation();
@@ -303,7 +304,7 @@ export default function Home10({ onePage = false, dark = false }) {
           </div>
         </div>
       </section>
-
+      <SignalButton phoneNumber="+524428218363" />
       <section className="pt-30">
         <div id="paddingRightContainer" className="container" />
       </section>
