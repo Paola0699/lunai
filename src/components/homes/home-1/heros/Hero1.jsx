@@ -25,20 +25,20 @@ export default function Hero1() {
                 <h1 className="hs-title-1 mb-30" style={{ color: "white" }}>
                   <AnimatedText text={t("welcomeText")} />
                 </h1>
-                {/*  <div
+                <div
                   className="local-scroll mt-n10 wow fadeInUp wch-unset"
                   data-wow-delay="0.7s"
                   data-wow-duration="1.2s"
                   data-wow-offset={0}
                 >
                   <a
-                    href="#about"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeqzzkCotzToV5kNu1TT1obT5Qg4OvZ4H-P7VrDMX-NimZO9Q/viewform?usp=header"
                     className="btn btn-mod btn-large btn-round btn-hover-anim align-middle me-2 me-sm-5 mt-10"
                     style={{ backgroundColor: "white", color: "black" }}
                   >
-                    <span>More information</span>
+                    <span>{t("apply_now")}</span>
                   </a>
-                </div> */}
+                </div>
               </div>
             </div>
             {/* End Home Section Text */}
