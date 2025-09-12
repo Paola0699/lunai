@@ -68,7 +68,7 @@ export default function MainPageNotFound() {
                 className="home-section bg-dark-1 bg-dark-alpha-60 light-content parallax-5"
                 style={{
                   backgroundImage:
-                    "url(/assets/images/full-width-images/section-bg-3.jpg)",
+                    "url(/assets/images/full-width-images/section-bg-3.png)",
                 }}
                 id="home"
               >
