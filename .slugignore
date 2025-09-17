@@ -1,0 +1,10 @@
+*.md
+*.log
+*.map
+node_modules/
+tests/
+docs/
+coverage/
+src/
+.vscode/
+.git/
