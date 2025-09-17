@@ -8,7 +8,6 @@ const imageData = [
   "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135286/full-project-4_izopr6.jpg",
   "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135286/full-project-5_vhsohf.jpg",
   "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135287/full-project-6_kvdtzb.jpg",
-  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135287/full-project-6_kvdtzb.jpg",
   "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135287/full-project-7_dy63hi.jpg",
   "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135288/full-project-8_dbwbjt.jpg",
   "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135289/full-project-9_glrlba.jpg",
