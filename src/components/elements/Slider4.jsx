@@ -2,22 +2,22 @@ import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const imageData = [
-  "/assets/images/portfolio/full-project-1.jpg",
-  "/assets/images/portfolio/full-project-2.jpg",
-  "/assets/images/portfolio/full-project-3.jpg",
-  "/assets/images/portfolio/full-project-4.jpg",
-  "/assets/images/portfolio/full-project-5.jpg",
-  "/assets/images/portfolio/full-project-6.jpg",
-  "/assets/images/portfolio/full-project-7.jpg",
-  "/assets/images/portfolio/full-project-8.jpg",
-  "/assets/images/portfolio/full-project-9.jpg",
-  "/assets/images/portfolio/full-project-10.jpg",
-  "/assets/images/portfolio/full-project-11.jpg",
-  "/assets/images/portfolio/full-project-12.jpg",
-  "/assets/images/portfolio/full-project-13.jpg",
-  "/assets/images/portfolio/full-project-3.png",
-  "/assets/images/portfolio/full-project-14.jpg",
-  "/assets/images/portfolio/full-project-15.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758134470/full-project-1_jaunjg.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758134549/full-project-2_l0ibyi.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135286/full-project-3_r5nbb0.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135286/full-project-4_izopr6.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135286/full-project-5_vhsohf.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135287/full-project-6_kvdtzb.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135287/full-project-6_kvdtzb.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135287/full-project-7_dy63hi.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135288/full-project-8_dbwbjt.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135289/full-project-9_glrlba.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135290/full-project-10_ghnazn.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135290/full-project-11_hivlua.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135291/full-project-12_sjxboh.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135292/full-project-13_o1mod2.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135295/full-project-14_wvk32r.jpg",
+  "https://res.cloudinary.com/dgujs7cy9/image/upload/v1758135295/full-project-15_dikun8.jpg",
 ];
 
 export default function Slider4() {
