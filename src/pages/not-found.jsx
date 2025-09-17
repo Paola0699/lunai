@@ -68,7 +68,7 @@ export default function NotFoundPage() {
                 className="home-section bg-dark-1 bg-dark-alpha-60 light-content parallax-5"
                 style={{
                   backgroundImage:
-                    "url(/assets/images/full-width-images/section-bg-3.jpg)",
+                    "url(/assets/images/full-width-images/section-bg-3.png)",
                 }}
                 id="home"
               >
@@ -87,6 +87,7 @@ export default function NotFoundPage() {
                           >
                             <h2 className="section-descr mb-20">
                               The page you were looking for could not be found.
+                              hola
                             </h2>
                           </div>
                           <div
