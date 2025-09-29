@@ -32,7 +32,7 @@
   },
   {
     "title": "Full Transformation",
-    "price": 9699,
+    "price": 9650,
     "per": "9 days (3 floods)",
     "features": [
       "Complete program with maximum treatment exposure and integration support."
@@ -43,8 +43,8 @@
   },
   {
     "title": "Essentials Reset",
-    "price": 5999,
-    "per": "5 days (2 floods)",
+    "price": 5850,
+    "per": "6 days (2 floods)",
     "features": [
       "Focused program for essential rejuvenation and foundational wellness practices."
     ],
@@ -54,8 +54,8 @@
   },
   {
     "title": "Mindful Escape",
-    "price": 4999,
-    "per": "4 days (1 flood)",
+    "price": 3850,
+    "per": "3 days (1 flood)",
     "features": [
       "Short retreat focused on mindfulness, meditation, and personal reflection."
     ],

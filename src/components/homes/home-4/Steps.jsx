@@ -75,7 +75,7 @@ export default function Steps() {
                 >
                   Ibogaine Reset
                 </h3>
-                <h6 style={{ textAlign: "center" }}> {t("programDuration")}</h6>
+                {/*  <h6 style={{ textAlign: "center" }}> {t("programDuration")}</h6> */}
 
                 <p>{t("programText1")}</p>
                 <p>{t("programText2")}</p>

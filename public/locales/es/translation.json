@@ -32,7 +32,7 @@
   },
   {
     "title": "Transformación Completa",
-    "price": 9699,
+    "price": 9650,
     "per": "9 días (3 sesiones)",
     "features": [
       "Programa completo con máxima exposición a tratamientos y soporte de integración."
@@ -43,8 +43,8 @@
   },
   {
     "title": "Reinicio Esencial",
-    "price": 5999,
-    "per": "5 días (2 sesiones)",
+    "price": 5850,
+    "per": "6 días (2 sesiones)",
     "features": [
       "Programa enfocado en rejuvenecimiento esencial y prácticas básicas de bienestar."
     ],
@@ -54,8 +54,8 @@
   },
   {
     "title": "Escape Consciente",
-    "price": 4999,
-    "per": "4 días (1 sesión)",
+    "price": 3850,
+    "per": "3 días (1 sesión)",
     "features": [
       "Retiro corto enfocado en mindfulness, meditación y reflexión personal."
     ],

@@ -8,9 +8,8 @@ import MetaComponent from "@/components/common/MetaComponent";
 import Home10 from "@/components/homes/home-10";
 import Header5 from "@/components/headers/Header5";
 const metadata = {
-  title:
-    "Home 1 Main Demo Onepage || Resonance &mdash; One & Multi Page Reactjs Creative Template",
-  description: "Resonance &mdash; One & Multi Page Reactjs Creative Template",
+  title: "Lunai Reset Center",
+  description: "Reset Center",
 };
 export default function Home1MainDemoOnepage() {
   return (
