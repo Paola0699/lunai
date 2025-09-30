@@ -83,14 +83,14 @@ export const teamMembers3 = [
     imgSrc: "/assets/images/demo-strong/team/team-1.png",
   },
   {
-    name: "Brad",
+    name: "Brad Horton",
     role: "Ibogaine facilitator",
     description:
       "",
     imgSrc: "/assets/images/demo-strong/team/team-2.png",
   },
   {
-    name: "Caroline",
+    name: "Caroline Hilldale",
     role: " Ibogaine facilitator",
     description:
       "",
