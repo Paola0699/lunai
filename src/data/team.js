@@ -96,5 +96,12 @@ export const teamMembers3 = [
       "",
     imgSrc: "/assets/images/demo-strong/team/team-3.png",
   },
+    {
+    name: "Germán Muñoz",
+    role: "Clinic Coordinator",
+    description:
+      "",
+    imgSrc: "/assets/images/demo-strong/team/team-4.png",
+  },
 
 ];

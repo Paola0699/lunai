@@ -38,14 +38,7 @@ export default function Team() {
           } `}
         >
           <div className="team-1-item round">
-            <h4 className="team-1-title">
-              {member.name.split(" ").map((part, idx) => (
-                <React.Fragment key={idx}>
-                  {part}
-                  <br className="d-sm-none" />
-                </React.Fragment>
-              ))}
-            </h4>
+            <h4 className="team-1-title">{member.name}</h4>
             <div className="team-1-image">
               <img
                 width={288}
