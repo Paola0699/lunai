@@ -44,7 +44,6 @@ function App() {
         <Route path="/" element={<Home1MainDemoOnepage />} />
         <Route path="/success" element={<SuccessPage />} />
         <Route path="/cancel" element={<CancelPage />} />
-
         <Route path="*" element={<MainPageNotFound />} />
       </Routes>
       <ScrollTopBehaviour />

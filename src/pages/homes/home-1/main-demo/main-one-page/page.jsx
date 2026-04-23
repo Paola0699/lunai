@@ -8,8 +8,10 @@ import MetaComponent from "@/components/common/MetaComponent";
 import Home10 from "@/components/homes/home-10";
 import Header5 from "@/components/headers/Header5";
 const metadata = {
-  title: "Lunai Reset Center",
-  description: "Reset Center",
+  title: "Lunai Reset Center | Retiros de Ibogaína con Supervisión Médica",
+  description:
+    "Retiros terapéuticos con ibogaína bajo supervisión médica para adicción, TEPT, depresión, ansiedad y trauma. Programas integrales de 3 a 9 días con preparación, tratamiento e integración.",
+  url: "/",
 };
 export default function Home1MainDemoOnepage() {
   return (

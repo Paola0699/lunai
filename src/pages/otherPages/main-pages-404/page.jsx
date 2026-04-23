@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title:
-    "Main About 1 || Resonance &mdash; One & Multi Page Reactjs Creative Template",
-  description: "Resonance &mdash; One & Multi Page Reactjs Creative Template",
+  title: "Página no encontrada | Lunai Reset Center",
+  description:
+    "La página que buscas no existe. Vuelve al inicio de Lunai Reset Center para conocer nuestros retiros de ibogaína con supervisión médica.",
 };
 export default function MainPageNotFound() {
   return (
